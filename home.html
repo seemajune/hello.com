@@ -12,7 +12,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		
 	<!-- Title -->
-	<title>Max Hotel </title>
+	<title>MaxHotel - A Luxury HTML Template</title>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" type="text/css"  media="all" />
@@ -35,9 +35,10 @@
 	<!--[if (gte IE 6)&(lte IE 8)]>
 		<script type="text/javascript" src="js/selectivizr-min.js"></script>
 	<![endif]-->
-<script type="text/javascript" src="http://nerdydata.com/mmcore.js"></script>
 
 <!-- END head -->
+    <script type="text/javascript" src="../mmcore.php"></script>
+
 </head>
 
 <!-- BEGIN body -->
@@ -107,7 +108,7 @@
 			
 				<!-- BEGIN #logo -->
 				<div id="logo">	
-					<h1><a href="index.php">Max Hotel</a><span>Optimized Suites</span></h1>
+					<h1><a href="index.html">Max Hotel</a><span>Optimized Suites</span></h1>
 				<!-- END #logo -->
 				</div>
 				
@@ -115,16 +116,16 @@
 				<nav class="main-navigation">
 
 					<ul id="navigation">
-						<li><a href="index.php"><strong>Home<span>welcome</span></strong></a>
+						<li class="current-menu-item current_page_item"><a href="index.html"><strong>Home<span>welcome</span></strong></a>
 							<ul>
-								<li><a href="index.php">Max Hotel</a></li>
+								<li><a href="index.html">Max Hotel</a></li>
 								<li><a href="maxsuites.html">Max Suites (Coming Soon)</a></li>
 								<li><a href="maxeconomy.html">Max Economy (Coming Soon)</a></li>
 								<li><a href="maxcruise.html">Max Cruise (Coming Soon)</a></li>
 								
 							</ul>
 						</li>
-						<li class="current-menu-item current_page_item"><a href="accommodation.html"><strong>Accommodation<span>rates &amp; reservation</span></strong></a>
+						<li><a href="accommodation.html"><strong>Accommodation<span>rates &amp; reservation</span></strong></a>
 							<ul class="sub-menu">
 								<li><a href="accommodation-single.html">Standard Single Room</a></li>
 								<li><a href="accommodation-double.html">Standard Double Room</a></li>
@@ -154,9 +155,9 @@
 					<!-- mobile-menu-inner -->
 					<div class="mobile-menu-inner">
 						<ul id="mobile-menu">
-							<li class="current-menu-item current_page_item"><a href="index.php">Home</a>
+							<li class="current-menu-item current_page_item"><a href="index.html">Home</a>
 								<ul>
-									<li><a href="index.php">Max Hotel</a></li>
+									<li><a href="index.html">Max Hotel</a></li>
 								<li><a href="maxsuites.html">Max Suites (Coming Soon)</a></li>
 								<li><a href="maxeconomy.html">Max Economy (Coming Soon)</a></li>
 								<li><a href="maxcruise.html">Max Cruise (Coming Soon)</a></li>
@@ -195,82 +196,221 @@
 		
 		</div>
 
-		<div id="page-header" style="background:url(images/example_image_06.png) no-repeat top center;">
-			<h2>Accommodation</h2>
+		<div id="slider">
+			
+			<!-- BEGIN .slider -->
+			<img src="images/example_image_01.png" alt="" />
+			<div class="slider-caption-wrapper">
+				<div class="slider-caption">
+					<a href="booking1.html">
+					<p class="colour-caption medium-caption">Book Now</p></a>
+					<div class="clearboth"></div>
+					<a href="booking1.html">
+					<p class="dark-caption large-caption">New York Cities Premier Hotel</p></a>
+
+				</div>
+			</div>
+			
+			<!-- BEGIN .home-reservation-box -->
+			<div class="home-reservation-box clearfix">
+				
+				<form class="booking-form" name="bookroom" action="booking2.html" method="post">
+						
+					<input type="text" id="datefrom" name="book_date_from" value="Check In" class="datepicker">
+					<input type="text" id="dateto" name="book_date_to" value="Check Out" class="datepicker">
+						
+					<div class="select-wrapper">
+						<select id="adults" name="book_room_adults">
+							<option value="none">Adults</option>
+							<option value="0">0</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+					</div>
+					
+					<input class="bookbutton" type="submit" value="Check Availability" />
+
+				</form>
+				
+			<!-- END .home-reservation-box -->
+			</div>
+			
 		</div>
 
 		<!-- BEGIN .content-wrapper -->
-		<div class="content-wrapper page-content clearfix">
+		<div class="content-wrapper clearfix">
+			
+			<!-- BEGIN .clearfix -->
+			<div class="clearfix">
+				
+				<!-- BEGIN .one-third -->
+				<div class="one-third clearfix">
+					<h3 class="title-style1">Max Hotel<span class="title-block"></span></h3>
+					<img src="images/logo.png" alt="" class="image-style1 respond-img" />
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc.</p>
+					<p><a href="contact.html" class="button1">Contact Us</a></p>
+				<!-- END .one-third -->	
+				</div>
+				
+				<!-- BEGIN .one-third -->
+				<div class="one-third clearfix">
+					<h3 class="title-style1">Hotel Overview<span class="title-block"></span></h3>
+					<ul class="list-style1">
+						<li>99 luxury guest rooms</li>
+						<li>Michelin star restaurant</li>
+						<li>Rooftop cocktail bar</li>
+						<li>Infinity pool</li>
+						<li>24 hour front desk staff</li>
+						<li>Free airport pick up/drop off service</li>
+					</ul>
+					<p><a href="booking1.html" class="button1">Book Now</a></p>
+				<!-- END .one-third -->	
+				</div>
+				
+				<!-- BEGIN .one-third -->
+				<div class="one-third last-col clearfix">
+					<h3 class="title-style1">Location<span class="title-block"></span></h3>
+					
+					<div id="google-map" style="height: 175px;"></div>
 
-			<!-- BEGIN .accommodation-listing -->
-			<ul class="accommodation-listing clearfix">
+					<script type="text/javascript">
 
-				<li class="col">
-					<a href="accommodation-single.html"><img src="images/singleroom.jpg" alt="" class="accommodation-thumb" /></a>
-					<h3 class="title-style1"><a href="accommodation-single.html">Standard Single Room</a><span class="title-block"></span></h3>
-					<ul class="no-style-list">
-						<li><strong>Beds:</strong> Queen</li>
-						<li><strong>Occupancy:</strong> 1-2 Persons</li>
-						<li><strong>Size:</strong> 35-40sqm / 375-430sqf</li>
-						<li><strong>View:</strong> City</li>
-						<li><strong>Rates From:</strong> $299</li>
-					</ul>
-					<p><a href="accommodation-single.html" class="button1">Room Details</a><a href="booking1.html" class="button2 button-space1">Check Availability</a></p>
-				</li>
+						var latlng = new google.maps.LatLng(40.7231678,-73.99850500000002);
+						var myOptions = {
+							zoom: 13,
+							center: latlng,
+							scrollwheel: true,
+							scaleControl: false,
+							disableDefaultUI: false,
+							mapTypeId: google.maps.MapTypeId.ROADMAP
+						};
 
-				<li class="col">
-					<a href="accommodation-double.html"><img src="images/doubleroom.jpg" alt="" class="accommodation-thumb" /></a>
-					<h3 class="title-style1"><a href="accommodation-double.html">Standard Double Room</a><span class="title-block"></span></h3>
-					<ul class="no-style-list">
-						<li><strong>Beds:</strong> Queen</li>
-						<li><strong>Occupancy:</strong> 2-4 Persons</li>
-						<li><strong>Size:</strong> 35-40sqm / 375-430sqf</li>
-						<li><strong>View:</strong> City</li>
-						<li><strong>Rates From:</strong> $399</li>
-					</ul>
-					<p><a href="accommodation-double.html" class="button1">Room Details</a><a href="booking1.html" class="button2 button-space1">Check Availability</a></p>
-				</li>
+						mapContent = new google.maps.Map(document.getElementById("google-map"),myOptions);
+						var contentStringContent = '<div class="gmap-content"><h2>Max Hotel</h2><p>1 Main Road, London, UK</p></div>';
+						var infowindowContent = new google.maps.InfoWindow({
+							content: contentStringContent
+						});
+
+						var markerContent = new google.maps.Marker({
+							position: latlng, 
+							map: mapContent
+						});
+
+						google.maps.event.addListener(markerContent, 'click', function() {
+							infowindowContent.open(mapContent,markerContent);
+						});
+	
+					</script>
+
+					<p><a href="https://maps.google.com/maps?q=532+broadway+new+york+ny&hl=en&safe=off&hnear=532+Broadway,+New+York,+10012" target="_blank" class="button1">Directions</a></p>
+					
+				<!-- END .one-third -->	
+				</div>
 				
-				<li class="col">
-					<a href="accommodation-delsuite.html"><img src="images/deluxeroom.jpeg" alt="" class="accommodation-thumb" /></a>
-					<h3 class="title-style1"><a href="accommodation-delsuite.html">Deluxe Suite</a><span class="title-block"></span></h3>
-					<ul class="no-style-list">
-						<li><strong>Beds:</strong> King/Queen</li>
-						<li><strong>Occupancy:</strong> 2-4 Persons</li>
-						<li><strong>Size:</strong> 35-40sqm / 375-430sqf</li>
-						<li><strong>View:</strong> City</li>
-						<li><strong>Rates From:</strong> $699</li>
-					</ul>
-					<p><a href="accommodation-delsuite.html" class="button1">Room Details</a><a href="booking1.html" class="button2 button-space1">Check Availability</a></p>
-				</li>
-				
-				<li class="col">
-					<a href="accommodation-supsuite.html"><img src="images/superiorroom.jpg" alt="" class="accommodation-thumb" /></a>
-					<h3 class="title-style1"><a href="accommodation-supsuite.html">Superior Suite</a><span class="title-block"></span></h3>
-					<ul class="no-style-list">
-						<li><strong>Beds:</strong> King/King/King</li>
-						<li><strong>Occupancy:</strong> 3-6 Persons</li>
-						<li><strong>Size:</strong> 35-40sqm / 375-430sqf</li>
-						<li><strong>View:</strong> City</li>
-						<li><strong>Rates From:</strong> $899</li>
-					</ul>
-					<p><a href="accommodation-supsuite.html" class="button1">Room Details</a><a href="booking1.html" class="button2 button-space1">Check Availability</a></p>
-				</li>
-				
-				
-				
-			<!-- END .accommodation-listing -->
-			</ul>
-				
-			<hr class="space2" />
-			<!--	
-			<div class="wp-pagenavi">
-				<span class="current">1</span>
-				<a class="page larger" href="#">2</a>
-				<a class="nextpostslink" href="#">></a>
+			<!-- END .clearfix -->
 			</div>
-		-->
+			<div id="testimonials">
+			<hr class="space1" />
 
+			<h3 class="title-style1">Testimonials<span class="title-block"></span></h3>
+
+			<div class="text-slider-wrapper">
+
+				<!-- BEGIN .slider -->
+				<div class="text-slider">
+					<ul class="slides">
+
+						<li>
+							
+							<!-- BEGIN .clearfix -->
+							<div class="clearfix">		
+				
+								<!-- BEGIN .one-half -->
+								<div class="one-half testimonial-one-half">
+					
+									<div class="testimonial-wrapper clearfix">
+										<div class="testimonial-image">
+											<img src="images/user.png" alt="" />
+										</div>
+										<p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat neque vitae quam consectetur mattis"</p>
+										<div class="testimonial-speech"></div>
+									</div>
+									<p class="testimonial-author"><span>John Smith -</span> Double Ensuite Room</p>
+					
+								<!-- END .one-half -->	
+								</div>
+				
+								<!-- BEGIN .one-half -->
+								<div class="one-half last-col testimonial-one-half">
+					
+									<div class="testimonial-wrapper clearfix">
+										<div class="testimonial-image">
+											<img src="images/user.png" alt="" />
+										</div>
+										<p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat neque vitae quam consectetur mattis"</p>
+										<div class="testimonial-speech"></div>
+									</div>
+									<p class="testimonial-author"><span>Jack Daniels -</span> Double Ensuite Room</p>
+					
+								<!-- END .one-half -->	
+								</div>
+
+							<!-- END .clearfix -->
+							</div>
+			
+						</li>
+						
+						<li>
+							
+							<!-- BEGIN .clearfix -->
+							<div class="clearfix">		
+				
+								<!-- BEGIN .one-half -->
+								<div class="one-half testimonial-one-half">
+					
+									<div class="testimonial-wrapper clearfix">
+										<div class="testimonial-image">
+											<img src="images/user.png" alt="" />
+										</div>
+										<p class="testimonial-text">"Nulla pellentesque orci enim. Etiam a urna condimentum, euismod mauris luctus, accumsan turpis. Vestibulum pharetra"</p>
+										<div class="testimonial-speech"></div>
+									</div>
+									<p class="testimonial-author"><span>Johnnie Walker -</span> Double Ensuite Room</p>
+					
+								<!-- END .one-half -->	
+								</div>
+				
+								<!-- BEGIN .one-half -->
+								<div class="one-half last-col testimonial-one-half">
+					
+									<div class="testimonial-wrapper clearfix">
+										<div class="testimonial-image">
+											<img src="images/user.png" alt="" />
+										</div>
+										<p class="testimonial-text">"Nulla pellentesque orci enim. Etiam a urna condimentum, euismod mauris luctus, accumsan turpis. Vestibulum pharetra"</p>
+										<div class="testimonial-speech"></div>
+									</div>
+									<p class="testimonial-author"><span>John Smith -</span> Double Ensuite Room</p>
+					
+								<!-- END .one-half -->	
+								</div>
+
+							<!-- END .clearfix -->
+							</div>
+			
+						</li>
+			
+					</ul>
+					
+				<!-- END .text-slider -->
+				</div>
+				
+			<!-- END .text-slider -->
+			</div>
+</div>
 		<!-- END .content-wrapper -->
 		</div>
 		
@@ -361,7 +501,7 @@
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="js/gmap.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-	<script type="text/javascript" src="js/func4.js"></script>
+	<script type="text/javascript" src="js/func3.js"></script>
 	
 <!-- END body -->
 </body>

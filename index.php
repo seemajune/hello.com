@@ -199,44 +199,16 @@
 		<div id="slider">
 			
 			<!-- BEGIN .slider -->
-			<div class="slider">
-				<ul class="slides">
-					
-					<li>
-						<img src="images/example_image_01.png" alt="" />
-						<div class="slider-caption-wrapper">
-							<div class="slider-caption">
-								<p class="colour-caption medium-caption">Book Now</p>
-								<div class="clearboth"></div>
-								<p class="dark-caption large-caption">New York Cities Premier Hotel</p>
-							</div>
-						</div>
-					</li>
-					
-					<li>
-						<img src="images/bizcenter.jpg" alt="" />
-						<div class="slider-caption-wrapper">
-							<div class="slider-caption">
-								<p class="colour-caption medium-caption">Cenference Room Available</p>
-								<div class="clearboth"></div>
-								<p class="dark-caption large-caption">Full Businees Center</p>
-							</div>
-						</div>
-					</li>
-					
-					<li>
-						<img src="images/suite.jpg" alt="" />
-						<div class="slider-caption-wrapper">
-							<div class="slider-caption">
-								<p class="colour-caption medium-caption">Book Now</p>
-								<div class="clearboth"></div>
-								<p class="dark-caption large-caption">Luxury Suites Available</p>
-							</div>
-						</div>
-					</li>
-					
-				</ul>
-			<!-- END .slider -->
+			<img src="images/example_image_01.png" alt="" />
+			<div class="slider-caption-wrapper">
+				<div class="slider-caption">
+					<a href="booking1.html">
+					<p class="colour-caption medium-caption">Book Now</p></a>
+					<div class="clearboth"></div>
+					<a href="booking1.html">
+					<p class="dark-caption large-caption">New York City's Premier Hotel</p></a>
+
+				</div>
 			</div>
 			
 			<!-- BEGIN .home-reservation-box -->
