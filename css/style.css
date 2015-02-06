@@ -165,9 +165,9 @@ h1, h2, h3, h4, h5, h6, #navigation li, .slider-caption p, .room-price-widget .f
 	font-family: 'Merriweather', serif;
 }
 
-#background-wrapper {
+/*#background-wrapper {
 	background: url(../images/text_bg.png) no-repeat fixed center 120px;
-}
+}*/
 
 #wrapper {
 	width: 1160px;
@@ -348,8 +348,8 @@ a.button0 {
 }
 
 a.button0:hover {
-	background: #fff;
-	color: #1c1c1c !important;
+	background: #106677;
+	color: #fff !important;
 }
 
 /* 3.0 - Navigation */
@@ -433,7 +433,7 @@ a.button0:hover {
 }
 
 #navigation li li a:hover {
-	background: #fafafa;
+	background: #fff;
 }
 
 #navigation .current-menu-item,
@@ -936,7 +936,7 @@ input[type="submit"] {
 /* 5.3 - Buttons */
 .button1 {
 	background: transparent;
-	border: #e3e3e3 1px solid;
+	border: #fff 1px solid;
 	padding: 10px 15px;
 	font-size: 12px;
 	font-weight: 600;
@@ -949,7 +949,7 @@ input[type="submit"] {
 
 .page-content a.button1,
 a.button1 {
-	color: #1c1c1c;
+	color: #fff;
 }
 
 .page-content a.button1:hover,
@@ -1112,22 +1112,22 @@ a.button2,
 
 .default {
 	background: #fff;
-	color: #1c1c1c;
+	color: #808284;
 	border: #dee0e0 1px solid;
 }
 
 .default a {
-	color: #1c1c1c;
+	color: #4F94CA;
 	text-decoration: underline;
 }
 
 .notice {
-	background: #fff5af;
-	color: #b3a437;
+	background: #fff;
+	color: #4F94CA;
 }
 
 .notice a {
-	color: #b3a437;
+	color: #4F94CA;
 	text-decoration: underline;
 }
 
@@ -2057,7 +2057,7 @@ a.button2,
 	margin: 0 10px 0 0;
 	float: left;
 	font-size: 14px;
-	color: #d3d3d3;
+	color: #58585B;
 }
 
 .widget-reservation-box input[type="text"] {
@@ -2084,7 +2084,7 @@ a.button2,
 
 .home-reservation-box input[type="submit"]:hover {
 	background: #fff;
-	color: #1c1c1c;
+/*	color: #1c1c1c;*/
 }
 
 .one-half-form {

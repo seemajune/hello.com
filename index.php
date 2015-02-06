@@ -16,7 +16,7 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" type="text/css"  media="all" />
-	<link rel="stylesheet" href="css/colours/goldblack.css" type="text/css"  media="all" />
+	<link rel="stylesheet" href="css/colours/mmbrandedcolors.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/superfish.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css"  media="all" />
