@@ -538,7 +538,7 @@ a.button0:hover {
 
 /* 4.0 - Slideshows */
 #slider {
-	margin: 0 0 85px 0;
+	margin: 0 0 85px 6%;
 	position: relative;
 }
 
@@ -637,7 +637,7 @@ a.button0:hover {
 	-moz-border-radius: 99%;
 	-o-border-radius: 99%;
 	border-radius: 99%;
-	border: #e3e3e3 1px solid;
+	border: #fff 1px solid;
 }
 
 .text-slider .flex-direction-nav .flex-next {
@@ -676,7 +676,7 @@ a.button0:hover {
 }
 
 .loading .dark-wrapper .text-slider {
-	background: url(../images/loader_03.gif) center no-repeat #4EB3C7;
+	background: url(../images/loader_03.gif) center no-repeat #fff;
 	min-height: 100px;
 }
 
@@ -2038,7 +2038,7 @@ a.button2,
 
 /* 7.2.1 - Home / Slider Booking Form */
 #slider .home-reservation-box {
-	width: 900px;
+	width: 800px;
 	padding: 30px;
 	margin: 0 auto;
 	position: absolute;
