@@ -12,7 +12,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		
 	<!-- Title -->
-	<title>MaxHotel - A Luxury HTML Template</title>
+	<title>MaxHotel - Optimized Travel Experience.</title>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" type="text/css"  media="all" />
@@ -21,9 +21,7 @@
 	<link rel="stylesheet" href="css/superfish.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css"  media="all" />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
-
+	
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	
@@ -125,7 +123,7 @@
 								
 							</ul>
 						</li>
-						<li><a href="accommodation.html"><strong>Accommodation<span>rates &amp; reservation</span></strong></a>
+						<li><a href="accommodation.html"><strong>Accommodation<span>reservation &amp; rates</span></strong></a>
 							<ul class="sub-menu">
 								<li><a href="accommodation-single.html">Standard Single Room</a></li>
 								<li><a href="accommodation-double.html">Standard Double Room</a></li>
@@ -133,14 +131,19 @@
 								<li><a href="accommodation-supsuite.html">Superior Suite</a></li>
 							</ul>
 						</li>
-						<li><a href="blog.html"><strong>Communication<span>Blogs</span></strong></a>
+						<li><a href="blog.html"><strong>Reviews<span>Reviews</span></strong></a>
 							<ul class="sub-menu">
-								<li><a href="blog.html">Blog</a></li>
+			<!-- 					<li><a href="blog.html">Blog</a></li> -->
 								<li><a href="testimonials.html">Testimonials</a></li>
 								
 							</ul>
 						</li>
-						<li><a href="events.html"><strong>Occasions<span>upcoming events</span></strong></a></li>
+						<li><a href="events.html"><strong>Occasions<span>events &amp; dining</span></strong></a></li>
+											<ul class="sub-menu">
+								<li><a href="#">upcoming events</a></li>
+								<li><a href="#">dining</a></li>
+								
+							</ul>
 						<li><a href="contact.html"><strong>Contact Us<span>get in touch</span></strong></a></li>
 					</ul>
 				
@@ -250,7 +253,7 @@
 				<div class="one-third clearfix">
 					<h3 class="title-style1">Max Hotel<span class="title-block"></span></h3>
 					<img src="images/logo.png" alt="" class="image-style1 respond-img" />
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc.</p>
+					<h4>Maxymised Accomodations <br /> <br /><br /> <br />Await You.<br /> <br /></h4>
 					<p><a href="contact.html" class="button1">Contact Us</a></p>
 				<!-- END .one-third -->	
 				</div>
@@ -333,12 +336,12 @@
 					
 									<div class="testimonial-wrapper clearfix">
 										<div class="testimonial-image">
-											<img src="images/user.png" alt="" />
+											<img src="images/user_john.jpg" alt="" />
 										</div>
-										<p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat neque vitae quam consectetur mattis"</p>
+										<p class="testimonial-text">"The ultimate NYC experience. MaxHotels really knows how to optimize experiences"</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>John Smith -</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Jacob Travaille -</span> Double Ensuite Room</p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -348,12 +351,12 @@
 					
 									<div class="testimonial-wrapper clearfix">
 										<div class="testimonial-image">
-											<img src="images/user.png" alt="" />
+											<img src="images/user_max.jpg" alt="" />
 										</div>
-										<p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat neque vitae quam consectetur mattis"</p>
+										<p class="testimonial-text">"I frequently stay at MaxHotels, and each time I do, I am even more impressed than the last time! Great service, nice staff and luxurious rooms!!!"</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>Jack Daniels -</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Benjamin Fox -</span> Double Ensuite Room</p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -373,12 +376,12 @@
 					
 									<div class="testimonial-wrapper clearfix">
 										<div class="testimonial-image">
-											<img src="images/user.png" alt="" />
+											<img src="images/user_jane.jpg" alt="" />
 										</div>
-										<p class="testimonial-text">"Nulla pellentesque orci enim. Etiam a urna condimentum, euismod mauris luctus, accumsan turpis. Vestibulum pharetra"</p>
+										<p class="testimonial-text">"I highly recommend MaxHotels to any traveler looking for a top-notch experience"</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>Johnnie Walker -</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Jane Walker -</span> Double Ensuite Room</p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -388,12 +391,12 @@
 					
 									<div class="testimonial-wrapper clearfix">
 										<div class="testimonial-image">
-											<img src="images/user.png" alt="" />
+											<img src="images/user_amber.jpg" alt="" />
 										</div>
-										<p class="testimonial-text">"Nulla pellentesque orci enim. Etiam a urna condimentum, euismod mauris luctus, accumsan turpis. Vestibulum pharetra"</p>
+										<p class="testimonial-text">"The rooms, the hospitality and the views are nice. Truly optimized luxury suites."</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>John Smith -</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Amber Johnson-</span> Double Ensuite Room</p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -415,32 +418,32 @@
 		</div>
 		
 		<!-- BEGIN #footer -->
-		<div id="footer">
+<!-- 		<div id="footer"> -->
 			
-			<!-- BEGIN .content-wrapper -->
-			<div class="content-wrapper clearfix">
+<!-- 			BEGIN .content-wrapper -->
+<!-- 			<div class="content-wrapper clearfix"> -->
 				
 				<!-- BEGIN .one-fourth -->
-				<div class="one-fourth">
+<!-- 				<div class="one-fourth">
 					<h4 class="title-style2">Flickr Stream<span class="title-block"></span></h4>
 					<div class="flickr_badge_wrapper clearfix">
 						<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;flickr_display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=112921544@N05"></script>
-					</div>
+					</div> 
 				<!-- END .one-fourth -->
-				</div>
+<!-- 				</div> -->
 				
 				<!-- BEGIN .one-fourth -->
-				<div class="one-fourth">
+				<!-- <div class="one-fourth">
 					<h4 class="title-style2">Latest Tweets<span class="title-block"></span></h4>
 					<ul class="twitter-feed">
 						<li><a href="#">@Proin</a> imperdiet adipiscing elit ac fermentum nullam et<span>about 6 hours ago</span></li>
 						<li><a href="#">@Proin</a> imperdiet adipiscing elit ac fermentum nullam et<span>about 6 hours ago</span></li>
-					</ul>
+					</ul> -->
 				<!-- END .one-fourth -->
-				</div>
+<!-- 				</div> -->
 				
 				<!-- BEGIN .one-fourth -->
-				<div class="one-fourth">
+<!-- 				<div class="one-fourth">
 					<h4 class="title-style2">Newsletter<span class="title-block"></span></h4>
 					<p>Sign-up for our newsletter to recieve special members-only promotions and deals each week.</p>
 					<form action="joinsuccess.html" method="post">
@@ -448,10 +451,10 @@
 						<input type="submit" class="button1" name="submit" value="Subscribe" />
 					</form>
 				<!-- END .one-fourth -->
-				</div>
+				<!-- </div> -->
 				
 				<!-- BEGIN .one-fourth -->
-				<div class="one-fourth last-col">
+				<!-- <div class="one-fourth last-col">
 					<h4 class="title-style2">Social Media<span class="title-block"></span></h4>	
 					<ul class="social-icons clearfix">
 						<li><a target="_blank" href="https://www.facebook.com/maxymiser?ref=ts"><span class="facebook-icon"></span></a></li>
@@ -459,11 +462,10 @@
 						<li><a target="_blank" href="http://www.pinterest.com/maxymiser/"><span class="pinterest-icon"></span></a></li>
 						<li><a target="_blank" href="https://www.youtube.com/user/Maxymiser"><span class="gplus-icon"></span></a></li>
 						<li><a target="_blank" href="http://www.linkedin.com/company/maxymiser"><span class="linkedin-icon"></span></a></li>
-					</ul>
+					</ul> --> 
 				<!-- END .one-fourth -->
-				</div>
-				
-				<div class="clearboth"></div>
+<!-- 				</div> -->
+				<!-- <div class="clearboth"></div> --> 
 				
 				<!-- BEGIN #footer-bottom -->
 				<div id="footer-bottom" class="clearfix">
@@ -472,9 +474,9 @@
 					
 					<nav class="secondary-navigation">
 						<ul class="fr">
-							<li><a href="accommodation.html">Accommodation</a><span>/</span></li>
-							<li><a href="booking1.html">Book Now</a><span>/</span></li>
-							<li><a href="contact.html">Directions &amp; Map</a><span>/</span></li>
+							<li><a href="accommodation.html">Services</a><span>/</span></li>
+							<li><a href="booking1.html">Book</a><span>/</span></li>
+							<li><a href="contact.html">Directions</a><span>/</span></li>
 						</ul>
 					</nav>
 					

@@ -40,18 +40,18 @@ body {
 .contact_details_list .fax_list:before,
 .contact_details_list .email_list:before,
 .contact_details_list .address_list:before {
-	background-color: #1c1c1c;
+	background-color: #790000;
 }
 
 .contact_details_list_dark .phone_list:before,
 .contact_details_list_dark .fax_list:before,
 .contact_details_list_dark .email_list:before {
-	background-color: #fff;
+	background-color: #106677;
 }
 
 .ui-datepicker-calendar tbody tr td a,
 #open_datepicker .ui-datepicker-calendar .ui-datepicker-unselectable .ui-state-default {
-	border-color: #1c1c1c;
+	border-color: #106677;
 }
 
 /* Gold Colour Elements */
@@ -78,7 +78,7 @@ blockquote,
 .wp-pagenavi .current,
 .wp-pagenavi a:hover,
 .tagcloud a:hover {
-	border-color: #bf9958;
+	border-color: #F7931D;
 }
 
 .title-block,
@@ -110,7 +110,7 @@ a.button0 {
 }
 
 .slider-caption p.colour-caption {
-	background: rgba(191, 153, 88, 0.7);
+	background: #F7931D;
 }
 
 .page-content p a,
