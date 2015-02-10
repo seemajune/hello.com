@@ -229,6 +229,11 @@ h1, h2, h3, h4, h5, h6, #navigation li, .slider-caption p, .room-price-widget .f
 	margin: 0 auto;
 }
 
+.center-splash img {
+	position: center;
+	width: 100%;
+}
+
 /* 2.1 - Top Bar */
 #topbar {
 	color: #fff;
@@ -547,7 +552,7 @@ a.button0:hover {
 
 /* 4.0 - Slideshows */
 #slider {
-	margin: 0 0 85px 6%;
+	margin: 0 0 85px 0;
 	position: relative;
 }
 
@@ -572,7 +577,7 @@ a.button0:hover {
 }
 
 .slider-caption p {
-	margin: 0 auto 4px auto;
+	margin: 10%;
 	text-align: center;
 	padding: 6px 15px;
 }
@@ -2047,12 +2052,12 @@ a.button2,
 
 /* 7.2.1 - Home / Slider Booking Form */
 #slider .home-reservation-box {
-	width: 800px;
+	width: 100%;
 	padding: 30px;
 	margin: 0 auto;
 	position: absolute;
 	bottom: -45px;
-	left: 100px;
+/*	left: 100px;*/
 }
 
 #slider-full .home-reservation-box {
@@ -2071,7 +2076,7 @@ a.button2,
 
 .home-reservation-box input[type="text"],
 .booking-side input[type="text"] {
-	margin: 0 10px 0 0;
+	margin: 0 10px 10px 0;
 	float: left;
 	font-size: 14px;
 	color: #58585B;
@@ -2926,7 +2931,7 @@ a.button2,
 #footer-bottom {
 	border-top: 1px solid #4EB3C7;
 	margin: 40px 0 0 0;
-	padding: 40px 0 0 0;
+	padding: 10px 0 0 0;
 	width: 100%;
 	background-color: #790000;
 }

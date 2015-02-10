@@ -116,8 +116,7 @@
 					<ul id="navigation">
 						<li class="current-menu-item current_page_item"><a href="index.html"><strong>Home<span>welcome</span></strong></a>
 							<ul>
-								<li><a href="index.html">Max Hotel</a></li>
-								<li><a href="maxsuites.html">Max Suites (Coming Soon)</a></li>
+								<li><a href="maxsuites.html">Max Suites</a></li>
 								<li><a href="maxeconomy.html">Max Economy (Coming Soon)</a></li>
 								<li><a href="maxcruise.html">Max Cruise (Coming Soon)</a></li>
 								
@@ -160,7 +159,6 @@
 						<ul id="mobile-menu">
 							<li class="current-menu-item current_page_item"><a href="index.html">Home</a>
 								<ul>
-									<li><a href="index.html">Max Hotel</a></li>
 								<li><a href="maxsuites.html">Max Suites (Coming Soon)</a></li>
 								<li><a href="maxeconomy.html">Max Economy (Coming Soon)</a></li>
 								<li><a href="maxcruise.html">Max Cruise (Coming Soon)</a></li>
@@ -202,16 +200,18 @@
 		<div id="slider">
 			
 			<!-- BEGIN .slider -->
-			<img src="images/example_image_01.png" alt="" />
+			<div class="center-splash">
+				<img src="images/example_image_01.png" alt="" />
+			</div>
 			<div class="slider-caption-wrapper">
-				<div class="slider-caption">
+				<!-- <div class="slider-caption">
 					<a href="booking1.html">
 					<p class="colour-caption medium-caption">Book Now</p></a>
 					<div class="clearboth"></div>
 					<a href="booking1.html">
 					<p class="dark-caption large-caption">New York City's Premier Hotel</p></a>
 
-				</div>
+				</div> -->
 			</div>
 			
 			<!-- BEGIN .home-reservation-box -->
@@ -351,7 +351,7 @@
 					
 									<div class="testimonial-wrapper clearfix">
 										<div class="testimonial-image">
-											<img src="images/user_max.jpg" alt="" />
+										
 										</div>
 										<p class="testimonial-text">"I frequently stay at MaxHotels, and each time I do, I am even more impressed than the last time! Great service, nice staff and luxurious rooms!!!"</p>
 										<div class="testimonial-speech"></div>
