@@ -117,8 +117,8 @@
 						<li class="current-menu-item current_page_item"><a href="index.html"><strong>Home<span>welcome</span></strong></a>
 							<ul>
 								<li><a href="maxsuites.html">Max Suites</a></li>
-								<li><a href="maxeconomy.html">Max Economy (Coming Soon)</a></li>
-								<li><a href="maxcruise.html">Max Cruise (Coming Soon)</a></li>
+								<li><a href="maxeconomy.html">Max Economy</a></li>
+								<li><a href="maxcruise.html">Max Cruise</a></li>
 								
 							</ul>
 						</li>
@@ -159,9 +159,9 @@
 						<ul id="mobile-menu">
 							<li class="current-menu-item current_page_item"><a href="index.html">Home</a>
 								<ul>
-								<li><a href="maxsuites.html">Max Suites (Coming Soon)</a></li>
-								<li><a href="maxeconomy.html">Max Economy (Coming Soon)</a></li>
-								<li><a href="maxcruise.html">Max Cruise (Coming Soon)</a></li>
+								<li><a href="maxsuites.html">Max Suites</a></li>
+								<li><a href="maxeconomy.html">Max Economy</a></li>
+								<li><a href="maxcruise.html">Max Cruise</a></li>
 								</ul>
 							</li>
 							<li><a href="accommodation.html">Accommodation</a>
