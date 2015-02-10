@@ -132,19 +132,17 @@
 						</li>
 						<li><a href="blog.html"><strong>Reviews<span>Reviews</span></strong></a>
 							<ul class="sub-menu">
-			<!-- 					<li><a href="blog.html">Blog</a></li> -->
-								<li><a href="testimonials.html">Testimonials</a></li>
-								
+								<li><a href="testimonials.html">Testimonials</a></li>		
 							</ul>
 						</li>
 						<li><a href="events.html"><strong>Occasions<span>events &amp; dining</span></strong></a></li>
-											<ul class="sub-menu">
+							<ul class="sub-menu">
 								<li><a href="#">upcoming events</a></li>
 								<li><a href="#">dining</a></li>
-								
 							</ul>
 						<li><a href="contact.html"><strong>Contact Us<span>get in touch</span></strong></a></li>
-					</ul>
+
+				
 				
 				<!-- .main-navigation -->
 				</nav>
