@@ -176,6 +176,7 @@ h1, h2, h3, h4, h5, h6, #navigation li, .slider-caption p, .room-price-widget .f
 	font-family: Arial, sans-serif;
 }
 
+
 /*#background-wrapper {
 	background: url(../images/text_bg.png) no-repeat fixed center 120px;
 }*/
@@ -1462,7 +1463,7 @@ a.button2,
 
 .widget-reservation-box {
 /*	border-bottom: 5px solid;*/
-	padding: 30px;
+	padding: 28px;
 }
 
 .widget {
@@ -2529,6 +2530,7 @@ a.button2,
 .room-price-widget {
 	border: 1px solid;
 	margin: 10px 0 40px 0;
+	background-color: #4EB3C7;
 }
 
 .room-price-widget .from,
@@ -2543,7 +2545,7 @@ a.button2,
 }
 
 .room-price-widget .from {
-	margin: -10px auto 0 auto;
+	margin: 1px auto 0 auto;
 	width: 100px;
 }
 
@@ -2551,11 +2553,11 @@ a.button2,
 	color: #fff;
 	font-size: 36px;
 	width: 100%;
-	margin: 15px 0 15px 0;
+	margin: 1px 0 1px 0;
 }
 
 .room-price-widget .price-detail {
-	margin: 0 auto -12px auto;
+	margin: 0 auto 1px auto;
 	width: 100px;
 }
 
