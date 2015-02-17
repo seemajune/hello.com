@@ -139,8 +139,13 @@
 							<ul class="sub-menu">
 								<li><a href="#">upcoming events</a></li>
 								<li><a href="#">dining</a></li>
+								<li><a href="blog.html">blog</a></li>
 							</ul>
-						<li><a href="contact.html"><strong>Contact Us<span>get in touch</span></strong></a></li>
+						<li><a href="contact.html"><strong>Contact Us<span>get in touch</span></strong></a>
+								<ul class="sub-menu">
+									<li><a href="blog.html">Blog</a></li>
+								</ul>
+						</li>
 
 				
 				
@@ -181,7 +186,12 @@
 								</ul>
 							</li>
 							<li><a href="events.html">Occasions</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="contact.html">Contact Us</a>
+									<ul class="sub-menu">
+									
+									<li><a href="blog.html">Blog</a></li>
+								</ul>
+							</li>
 						<!-- END #main-menu -->
 						</ul>
 					<!-- mobile-menu-inner -->
