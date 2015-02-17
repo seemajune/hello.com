@@ -108,8 +108,7 @@
 				<div id="logo">	
 					<h1><a href="index.html">Max Hotel</a><span>Optimized Suites</span></h1>
 				<!-- END #logo -->
-				</div>
-				
+				</div>				
 				<!-- .main-navigation -->
 				<nav class="main-navigation">
 
@@ -130,7 +129,7 @@
 								<li><a href="accommodation-supsuite.html">Superior Suite</a></li>
 							</ul>
 						</li>
-						<li><a href="blog.html"><strong>Reviews<span>Reviews</span></strong></a>
+						<li><a href="testimonials.html"><strong>Reviews<span>Reviews</span></strong></a>
 							<ul class="sub-menu">
 								<li><a href="testimonials.html">Testimonials</a></li>		
 							</ul>
@@ -146,10 +145,7 @@
 									<li><a href="blog.html">Blog</a></li>
 								</ul>
 						</li>
-
-				
-				
-				<!-- .main-navigation -->
+				<!-- ENDS.main-navigation -->
 				</nav>
 				
 				<!-- BEGIN .mobile-menu-wrapper -->
@@ -364,7 +360,7 @@
 										<p class="testimonial-text">"I frequently stay at MaxHotels, and each time I do, I am even more impressed than the last time! Great service, nice staff and luxurious rooms!!!"</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>Benjamin Fox -</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Benjamin Fox -</span> Single Room</p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -389,7 +385,7 @@
 										<p class="testimonial-text">"I highly recommend MaxHotels to any traveler looking for a top-notch experience"</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>Jane Walker -</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Jane Walker -</span> Superior Suite </p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -404,7 +400,7 @@
 										<p class="testimonial-text">"The rooms, the hospitality and the views are nice. Truly optimized luxury suites."</p>
 										<div class="testimonial-speech"></div>
 									</div>
-									<p class="testimonial-author"><span>Amber Johnson-</span> Double Ensuite Room</p>
+									<p class="testimonial-author"><span>Amber Johnson-</span> Deluxe Suite</p>
 					
 								<!-- END .one-half -->	
 								</div>
@@ -420,61 +416,10 @@
 				</div>
 				
 			<!-- END .text-slider -->
+				</div>
 			</div>
-</div>
 		<!-- END .content-wrapper -->
 		</div>
-		
-		<!-- BEGIN #footer -->
-<!-- 		<div id="footer"> -->
-			
-<!-- 			BEGIN .content-wrapper -->
-<!-- 			<div class="content-wrapper clearfix"> -->
-				
-				<!-- BEGIN .one-fourth -->
-<!-- 				<div class="one-fourth">
-					<h4 class="title-style2">Flickr Stream<span class="title-block"></span></h4>
-					<div class="flickr_badge_wrapper clearfix">
-						<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;flickr_display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=112921544@N05"></script>
-					</div> 
-				<!-- END .one-fourth -->
-<!-- 				</div> -->
-				
-				<!-- BEGIN .one-fourth -->
-				<!-- <div class="one-fourth">
-					<h4 class="title-style2">Latest Tweets<span class="title-block"></span></h4>
-					<ul class="twitter-feed">
-						<li><a href="#">@Proin</a> imperdiet adipiscing elit ac fermentum nullam et<span>about 6 hours ago</span></li>
-						<li><a href="#">@Proin</a> imperdiet adipiscing elit ac fermentum nullam et<span>about 6 hours ago</span></li>
-					</ul> -->
-				<!-- END .one-fourth -->
-<!-- 				</div> -->
-				
-				<!-- BEGIN .one-fourth -->
-<!-- 				<div class="one-fourth">
-					<h4 class="title-style2">Newsletter<span class="title-block"></span></h4>
-					<p>Sign-up for our newsletter to recieve special members-only promotions and deals each week.</p>
-					<form action="joinsuccess.html" method="post">
-						<input class="nsu-field" type="text" name="newsletter_email" value="" />
-						<input type="submit" class="button1" name="submit" value="Subscribe" />
-					</form>
-				<!-- END .one-fourth -->
-				<!-- </div> -->
-				
-				<!-- BEGIN .one-fourth -->
-				<!-- <div class="one-fourth last-col">
-					<h4 class="title-style2">Social Media<span class="title-block"></span></h4>	
-					<ul class="social-icons clearfix">
-						<li><a target="_blank" href="https://www.facebook.com/maxymiser?ref=ts"><span class="facebook-icon"></span></a></li>
-						<li><a target="_blank" href="https://twitter.com/maxymiser"><span class="twitter-icon"></span></a></li>
-						<li><a target="_blank" href="http://www.pinterest.com/maxymiser/"><span class="pinterest-icon"></span></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/user/Maxymiser"><span class="gplus-icon"></span></a></li>
-						<li><a target="_blank" href="http://www.linkedin.com/company/maxymiser"><span class="linkedin-icon"></span></a></li>
-					</ul> --> 
-				<!-- END .one-fourth -->
-<!-- 				</div> -->
-				<!-- <div class="clearboth"></div> --> 
-				
 				<!-- BEGIN #footer-bottom -->
 				<div id="footer-bottom" class="clearfix">
 					
