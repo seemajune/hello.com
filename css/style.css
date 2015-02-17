@@ -2128,7 +2128,8 @@ a.button2,
 /* 7.2.2 - Booking Calendar */
 #ui-datepicker-div {
 	padding: 20px;
-	color: #fff;
+	color: #000;
+	background-color: #fff;
 	border-bottom: 5px solid;
 	font-size: 13px;
 	-moz-box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.2);
@@ -2141,7 +2142,8 @@ a.button2,
 }
 
 #ui-datepicker-div a {
-	color: #fff;
+	color: #000;
+	background-color: #fff;
 	text-decoration: none;
 }
 
