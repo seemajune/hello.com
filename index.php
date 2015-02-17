@@ -106,14 +106,14 @@
 			
 				<!-- BEGIN #logo -->
 				<div id="logo">	
-					<h1><a href="index.html">Max Hotel</a><span>Optimized Suites</span></h1>
+					<h1><a href="index.php">Max Hotel</a><span>Optimized Suites</span></h1>
 				<!-- END #logo -->
 				</div>				
 				<!-- .main-navigation -->
 				<nav class="main-navigation">
 
 					<ul id="navigation">
-						<li class="current-menu-item current_page_item"><a href="index.html"><strong>Home<span>welcome</span></strong></a>
+						<li class="current-menu-item current_page_item"><a href="index.php"><strong>Home<span>welcome</span></strong></a>
 							<ul>
 								<li><a href="maxsuites.html">Max Suites</a></li>
 								<li><a href="maxeconomy.html">Max Economy</a></li>
@@ -156,7 +156,7 @@
 					<!-- mobile-menu-inner -->
 					<div class="mobile-menu-inner">
 						<ul id="mobile-menu">
-							<li class="current-menu-item current_page_item"><a href="index.html">Home</a>
+							<li class="current-menu-item current_page_item"><a href="index.php">Home</a>
 								<ul>
 								<li><a href="maxsuites.html">Max Suites</a></li>
 								<li><a href="maxeconomy.html">Max Economy</a></li>

@@ -2073,6 +2073,7 @@ a.button2,
 .home-reservation-box input[type="text"],
 .widget-reservation-box input[type="text"] {
 	width: 169px;
+
 }
 
 .home-reservation-box input[type="text"],
@@ -2097,12 +2098,16 @@ a.button2,
 	border: none;
 	font-size: 14px;
 	cursor: pointer;
+
 }
 
 .widget-reservation-box input[type="submit"] {
 	width: 150px;
-	margin: 30px auto 0 auto;
 	display: block;
+	width: 150px;
+	margin: 15px auto 0 auto;
+	background-color: #4EB3C7;
+}
 }
 
 .home-reservation-box input[type="submit"]:hover {
