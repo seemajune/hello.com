@@ -1949,7 +1949,7 @@ a.button2,
 
 .price-details .deposit {
 	width: 170px;
-	margin: -13px auto 0 auto;
+	margin: 5% 5% 5% 15%;
 	text-align: center;
 }
 
@@ -2060,7 +2060,7 @@ a.button2,
 /* 7.2.1 - Home / Slider Booking Form */
 #slider .home-reservation-box {
 	width: 100%;
-	padding: 30px;
+	padding: 30px 30px 30px 23%;
 	margin: 0 auto;
 	position: absolute;
 	bottom: -45px;
