@@ -4,8 +4,8 @@ var to = mmcore.GetCookie('checkOut');
 var guests = mmcore.GetCookie('guests');
 var rtype = mmcore.GetCookie('roomtype');
 var pricecost = mmcore.GetCookie('roomprice');
-var total = pricecost * nights;
-var dep = total * .15;
+var total = (pricecost * nights).toFixed(2);
+var dep = (total * .15).toFixed(2);
 
 
 
