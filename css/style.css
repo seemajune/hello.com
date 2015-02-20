@@ -1746,6 +1746,8 @@ a.button2,
 .booking-main-wrapper {
 	width: 63%;
 	float: right;
+	background: #0C9BB7;
+	color: #666;
 }
 
 .booking-main {
@@ -1879,6 +1881,7 @@ a.button2,
 	color: #fff;
 	font-size: 14px;
 	margin: 0 0 8px 0;
+	background: #0C9BB7;
 }
 
 .room-list-right .room-meta {
@@ -1974,6 +1977,7 @@ a.button2,
 	width: 48%;
 }
 
+
 .input-right {
 	float: right;
 	width: 48%;
@@ -1985,7 +1989,7 @@ a.button2,
 
 .booking-main input[type="text"] {
 	margin: 0 0 20px 0;
-	color: #d3d3d3;
+	color: #106677;
 	font-size: 12px;
 }
 
@@ -1994,7 +1998,7 @@ a.button2,
 	padding: 10px 9px;
 	margin: 0 0 30px 0;
 	font-size: 12px;
-	color: #d3d3d3;
+	color: #106677;
 	border: none;
 	font-size: 12px;
 }
@@ -2124,6 +2128,7 @@ a.button2,
 
 .booking-side input[type="text"] {
 	width: 112px;
+	color: #106677;
 }
 
 .one-third-form {
@@ -2975,5 +2980,6 @@ a.button2,
 #footer-bottom ul li a:hover {
 	text-decoration: underline !important;
 }
+
 
 /* 11.0 - IE Fixes */
