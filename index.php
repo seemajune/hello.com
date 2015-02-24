@@ -11,10 +11,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		
-	<!-- Title -->
 	<title>MaxHotel - Optimized Travel Experience.</title>
 
-	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/colours/mmbrandedcolors.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css"  media="all" />
@@ -22,21 +20,21 @@
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css"  media="all" />
 	
-	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	
-	<!-- JavaScript (must go in header) -->
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	
-	<!-- JavaScript For IE -->
-		
-	<!--[if (gte IE 6)&(lte IE 8)]>
-		<script type="text/javascript" src="js/selectivizr-min.js"></script>
-	<![endif]-->
-
-<!-- END head -->
-    <script type="text/javascript" src="../mmcore.php"></script>
-
+	<script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+	<script src="/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="/js/mmcore.js"></script>
+	<script type='text/javascript' src='/js/jquery-ui.js'></script>
+	<script type="text/javascript" src="/js/superfish.js"></script>
+	<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="/js/gmap.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<script type="text/javascript" src="/js/maxhotel.js"></script>
+	
 </head>
 
 <!-- BEGIN body -->
@@ -447,16 +445,6 @@
 	
 	<!-- END #background-wrapper -->
 	</div>
-	
-	<!-- JavaScript -->
-	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-	<script type='text/javascript' src='js/jquery-ui.js'></script>
-	<script type="text/javascript" src="js/superfish.js"></script>
-	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/gmap.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<script type="text/javascript" src="js/func3.js"></script>
 	
 <!-- END body -->
 </body>
