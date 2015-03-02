@@ -222,8 +222,9 @@
 				<form class="booking-form" name="bookroom" action="booking2.html" method="post">
 						
 					<input type="text" id="datefrom" name="book_date_from" value="Check In" class="datepicker">
+
 					<input type="text" id="dateto" name="book_date_to" value="Check Out" class="datepicker">
-						
+				
 					<div class="select-wrapper">
 						<select id="adults" name="book_room_adults">
 							<option value="none">Adults</option>
@@ -235,13 +236,13 @@
 							<option value="5">5</option>
 						</select>
 					</div>
-					
-					<input class="bookbutton" type="submit" value="Check Availability" />
 
+					<input class="bookbutton" type="submit" value="Check Availability" />
 				</form>
 				
 			<!-- END .home-reservation-box -->
 			</div>
+			<div class="error-modal">error. <button class="error-button">fix</button></div>
 			
 		</div>
 

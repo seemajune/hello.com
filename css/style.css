@@ -163,6 +163,8 @@ table {
 	clear: both;
 }
 
+
+
 /* 1.0 - Global */
 body {
 	color: #4EB3C7;
@@ -2981,5 +2983,34 @@ a.button2,
 	text-decoration: underline !important;
 }
 
+.error-modal {
+
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  box-shadow: 0 0 0 1000em rgba(0,0,0,.5);
+}
+
+.open-modal {
+	display: block;
+}
+
+.error-button {
+  appearance: none;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  color: #790000;
+  border: 0;
+  outline: 0;
+  background: #555;
+  cursor: pointer;
+}
 
 /* 11.0 - IE Fixes */
