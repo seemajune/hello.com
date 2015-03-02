@@ -8,9 +8,12 @@
 
 $(function() {
   $(".bookbutton").on('click', function(e){
-    e.preventDefault();
+  
     function check(that){
-        if (that.val() == 'Check In') return true;
+        if (that.val() == 'Check In') {
+            e.preventDefault();
+            return true;
+        }
         return false;
     }
      $('.error-modal').toggleClass('open-modal', check($('#datefrom')));
