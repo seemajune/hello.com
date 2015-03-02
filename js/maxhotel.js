@@ -7,21 +7,37 @@
 // })
 
 $(function() {
-  $(".bookbutton").on('click', function(e){
-  
-    function check(that){
-        if (that.val() == 'Check In') {
-            e.preventDefault();
-            return true;
-        }
-        return false;
-    }
-     $('.error-modal').toggleClass('open-modal', check($('#datefrom')));
+/*
+  $("#FORM").submit(function(e){
+      e.preventDefault();
 
-     $('.error-button').on('click', function() {
-       $('.error-modal').toggleClass('open-modal');
-     });
-  })
+      if (valid) return;
+
+
+      $.ajax({
+
+      })
+
+  })*/
+
+  $(".booking-form").on('submit', function(e){
+    e.preventDefault();
+    
+    var error = false;
+    $("#datefrom, #dateto, #adults").each(function(i,v){
+         if ( $(v).val() == 'Check In' || $(v).val() == 'Check Out' || isNaN(parseInt($(v).val())) ) error = true;
+    });
+    if (error) return $('.error-modal').addClass('open-modal');
+      
+      alert("SUCCESS!");
+    // success, submit the form
+
+    //http://api.jquery.com/jquery.post/
+  });
+    // close the modal, re-enable book button
+    $('.error-button').on('click', function() {
+      $('.error-modal').removeClass('open-modal');
+    });
 });
 
 

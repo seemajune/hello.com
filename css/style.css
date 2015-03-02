@@ -2984,15 +2984,17 @@ a.button2,
 }
 
 .error-modal {
-
+	color: #790000;
+	padding: 3%;
   display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 400px;
-  height: 200px;
+  height: 50px;
   background: #fff;
+  border: 1px solid #790000;
   box-shadow: 0 0 0 1000em rgba(0,0,0,.5);
 }
 
@@ -3003,11 +3005,13 @@ a.button2,
 .error-button {
   appearance: none;
   padding: 10px 20px;
+  margin-top: %5;
   font-family: inherit;
   font-size: 16px;
   font-weight: bold;
-  color: #790000;
-  border: 0;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 5%;
   outline: 0;
   background: #555;
   cursor: pointer;

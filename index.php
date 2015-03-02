@@ -242,8 +242,9 @@
 				
 			<!-- END .home-reservation-box -->
 			</div>
-			<div class="error-modal">error. <button class="error-button">fix</button></div>
-			
+			<div class="error-modal">please select valid inputs.<br /><br />
+				<button class="error-button">ok</button>
+			</div>	
 		</div>
 
 		<!-- BEGIN .content-wrapper -->
