@@ -1,8 +1,6 @@
 
 $(function() {
   $(".booking-form").on('submit', function(e){
-    e.preventDefault();
-
     var error = false;
     $("#datefrom, #dateto, #adults").each(function(i,v){
     // check if user selected dates and # adult guests
@@ -24,22 +22,10 @@ $(function() {
       // close the modal, re-enable booking button
       $('.error-button').on('click', function() {
         $('.error-modal').removeClass('open-modal');
-       });
-
-      return;
+      });
+      e.preventDefault();
+      return false;
     }
-
-    // on success, redirect to booking page, post data
-    $.ajax({  
-      type: $('.booking-form').attr('method'),  
-      url: $('.booking-form').attr('action'),  
-      data: $('.booking-form').serialize(),       
-      success: function(){  
-        window.location.href = '/booking2.html';
-        alert();
-          // $('#dates').text(results.book_date_from.data());
-      }  
-    });
   });
 });
 

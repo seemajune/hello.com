@@ -404,8 +404,24 @@
 					<h4 class="title-style4">Your Reservation<span class="title-block"></span></h4>
 					
 					<ul>
-						<li><span>Dates: </span> <div id="dates"> </div></li>
-						<li><span>Guests: </span> <div id="ppl"> </div></li>
+						<li><span>Dates: </span> 
+							<div id="dates">   
+								<?php
+	    							if($_POST['book_date_from'] && $_POST['book_date_to']){
+	      							echo $_POST['book_date_from'] . " - " . $_POST['book_date_to'];
+	    							}
+	  						?>
+  						</div>
+  					</li>
+						<li><span>Guests: </span> 
+							<div id="ppl"> 
+								<?php
+	    							if($_POST['book_room_adults']){
+	      							echo $_POST['book_room_adults'];
+	    							}
+	  						?>
+							</div>
+						</li>
 					</ul>
 					
 					<a href="booking1.html" class="button3">Edit Reservation</a>

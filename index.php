@@ -6,24 +6,17 @@
 
 <!-- BEGIN head -->
 <head>
-
-	<!--Meta Tags-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		
 	<title>MaxHotel - Optimized Travel Experience.</title>
-
 	<link rel="stylesheet" href="css/style.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/colours/mmbrandedcolors.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/superfish.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css"  media="all" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css"  media="all" />
-	
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	
 	<script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
 	<script src="/js/jquery.cookie.js"></script>
   <script type="text/javascript" src="/js/mmcore.js"></script>
@@ -34,72 +27,41 @@
 	<script type="text/javascript" src="/js/gmap.js"></script>
 	<script type="text/javascript" src="/js/scripts.js"></script>
 	<script type="text/javascript" src="/js/maxhotel.js"></script>
-	
 </head>
 
 <!-- BEGIN body -->
 <body class="loading">
-	
-	<!-- BEGIN #background-wrapper -->
-	<div id="background-wrapper">
-	
-	<!-- BEGIN #wrapper -->
-	<div id="wrapper">
-		
-		<!-- BEGIN #header-gmap -->
-		<div id="header-gmap">
-			
-			<div id="map-canvas"></div>
-			
-		<!-- END #header-gmap -->
-		</div>
-		
-		<!-- BEGIN #topbar -->
-		<div id="topbar">
-			
-			<!-- #topbar-wrapper -->
-			<div id="topbar-wrapper" class="clearfix">
-				
-				<!-- BEGIN .topbar-left -->
-				<div class="topbar-left">
-					
-					<a href="#" class="gmap-button"></a>
-					
-				<!-- END .topbar-left -->
-				</div>
-				
-				<!-- BEGIN .topbar-right -->
-				<div class="topbar-right clearfix">
-					
-					<a href="booking1.html" class="button0">Book Now</a>
-					
-					<ul id="language-selection">
-						<li><a href="#">English</a>
-							<ul class="submenu">
-								<li><a href="#">French</a></li>
-								<li><a href="#">German</a></li>
-								<li><a href="#">Italian</a></li>
-							</ul>
-						</li>
-					</ul>
-					
-					<ul class="header-contact">
-						<li class="phone_icon">+1 212 201 2359</li>
-						<li class="email_icon">info@maxymiser.com</li>
-					</ul>
-					
-				<!-- END .topbar-right -->
-				</div>
-			
-			<!-- END #topbar-right -->
+		<div id="background-wrapper">
+		<div id="wrapper">
+			<div id="header-gmap">
+				<div id="map-canvas"></div>
 			</div>
-			
-		<!-- END #topbar -->
-		</div>
+				<div id="topbar">
+				<div id="topbar-wrapper" class="clearfix">
+						<div class="topbar-left">
+							<a href="#" class="gmap-button"></a>
+						</div>
+						<div class="topbar-right clearfix">
+							<a href="booking1.html" class="button0">Book Now</a>
+								<ul id="language-selection">
+									<li><a href="#">English</a>
+										<ul class="submenu">
+											<li><a href="#">French</a></li>
+											<li><a href="#">German</a></li>
+											<li><a href="#">Italian</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="header-contact">
+									<li class="phone_icon">+1 212 201 2359</li>
+									<li class="email_icon">info@maxymiser.com</li>
+								</ul>
+						</div>
+				</div>
+			</div>
 		
 		<div role="banner">
-		
-			<!-- BEGIN .content-wrapper -->
+					<!-- BEGIN .content-wrapper -->
 			<div class="content-wrapper clearfix">
 			
 				<!-- BEGIN #logo -->
@@ -206,20 +168,13 @@
 				<img src="images/example_image_01.png" alt="" />
 			</div>
 			<div class="slider-caption-wrapper">
-				<!-- <div class="slider-caption">
-					<a href="booking1.html">
-					<p class="colour-caption medium-caption">Book Now</p></a>
-					<div class="clearboth"></div>
-					<a href="booking1.html">
-					<p class="dark-caption large-caption">New York City's Premier Hotel</p></a>
 
-				</div> -->
 			</div>
 			
 			<!-- BEGIN .home-reservation-box -->
 			<div class="home-reservation-box clearfix">
 				
-				<form class="booking-form" name="bookroom" action="booking2.html" method="post">
+				<form class="booking-form" name="bookroom" action="booking2.php" method="post">
 						
 					<input type="text" id="datefrom" name="book_date_from" value="Check In" class="datepicker">
 
@@ -236,7 +191,6 @@
 							<option value="5">5</option>
 						</select>
 					</div>
-
 					<input class="bookbutton" type="submit" value="Check Availability" />
 				</form>
 				
@@ -441,13 +395,7 @@
 		
 		<!-- END #footer -->
 		</div>
-		
-	<!-- END #wrapper -->
+		</div>
 	</div>
-	
-	<!-- END #background-wrapper -->
-	</div>
-	
-<!-- END body -->
 </body>
 </html>
