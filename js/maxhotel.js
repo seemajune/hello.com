@@ -28,12 +28,19 @@ $(function() {
          if ( $(v).val() == 'Check In' || $(v).val() == 'Check Out' || isNaN(parseInt($(v).val())) ) error = true;
     });
     if (error) return $('.error-modal').addClass('open-modal');
-      
-      alert("SUCCESS!");
-    // success, submit the form
-
-    //http://api.jquery.com/jquery.post/
+      $.ajax({  
+        type: $('.booking-form').attr('method'),  
+        url: $('.booking-form').attr('action'),  
+        data: $('.booking-form').serialize(),       
+        success: function(){  
+          alert("success"); 
+          //redirect to another page
+          window.location.href = '/booking3.html';
+          //replace with stemmed url 
+        }  
+      });
   });
+
     // close the modal, re-enable book button
     $('.error-button').on('click', function() {
       $('.error-modal').removeClass('open-modal');
