@@ -1,24 +1,5 @@
-// $(".select").on('blur change click', function(){
-//     function check($this){
-//         if ($this.val() == 'something') return true;
-//         return false;
-//     }
-//     $(this).toggleClass('error', check($(this)));
-// })
 
 $(function() {
-/*
-  $("#FORM").submit(function(e){
-      e.preventDefault();
-
-      if (valid) return;
-
-
-      $.ajax({
-
-      })
-
-  })*/
 
   $(".booking-form").on('submit', function(e){
     e.preventDefault();
@@ -28,23 +9,22 @@ $(function() {
          if ( $(v).val() == 'Check In' || $(v).val() == 'Check Out' || isNaN(parseInt($(v).val())) ) error = true;
     });
     if (error) return $('.error-modal').addClass('open-modal');
-      $.ajax({  
-        type: $('.booking-form').attr('method'),  
-        url: $('.booking-form').attr('action'),  
-        data: $('.booking-form').serialize(),       
-        success: function(){  
-          alert("success"); 
-          //redirect to another page
-          window.location.href = '/booking3.html';
-          //replace with stemmed url 
-        }  
-      });
+    
+    $.ajax({  
+      type: $('.booking-form').attr('method'),  
+      url: $('.booking-form').attr('action'),  
+      data: $('.booking-form').serialize(),       
+      success: function(){  
+        alert("success"); 
+        window.location.href = '/booking3.html';
+      }  
+    });
   });
 
-    // close the modal, re-enable book button
-    $('.error-button').on('click', function() {
-      $('.error-modal').removeClass('open-modal');
-    });
+  // close the modal, re-enable book button
+  $('.error-button').on('click', function() {
+    $('.error-modal').removeClass('open-modal');
+  });
 });
 
 
