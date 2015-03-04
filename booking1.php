@@ -81,7 +81,7 @@
 				<!-- BEGIN .topbar-right -->
 				<div class="topbar-right clearfix">
 					
-					<a href="booking1.html" class="button0">Book Now</a>
+					<a href="booking1.php" class="button0">Book Now</a>
 					
 					<ul id="language-selection">
 						<li><a href="#">English</a>
@@ -284,18 +284,18 @@
 				
 					<h4 class="title-style4">Your Reservation<span class="title-block"></span></h4>
 					
-					<form class="booking-form" name="bookroom" action="booking2.html" method="post">
+					<form class="booking-form" name="bookroom" action="booking2.php" method="post">
 						
 						<div class="clearfix">
 							
 							<div class="one-half-form">
 								<label for="open_date_from">Check In</label>
-								<input name="open_date_from" type="text" id="open_date_from" size="10" class="datepicker2">
+								<input name="book_date_from" type="text" id="open_date_from" size="10" class="datepicker2">
 							</div>
 						
 							<div class="one-half-form last-col">
 								<label for="open_date_to">Check Out</label>
-								<input name="open_date_to" type="text" id="open_date_to" size="10" class="datepicker2">
+								<input name="book_date_to" type="text" id="open_date_to" size="10" class="datepicker2">
 							</div>
 						
 						</div>
@@ -514,7 +514,7 @@
 		<!-- END .content-wrapper -->
 		</div>
 	</div>
-		3<!-- BEGIN #footer-bottom -->
+		<!-- BEGIN #footer-bottom -->
 				<div id="footer-bottom" class="clearfix">
 					
 					<p class="fl">&copy; 2014 Max Hotel. All Rights Reserved</p>
@@ -522,7 +522,7 @@
 					<nav class="secondary-navigation">
 						<ul class="fr">
 							<li><a href="accommodation.html">Accommodation</a></li>
-							<li><a href="booking1.html">Book Now</a></li>
+							<li><a href="booking1.php">Book Now</a></li>
 							<li><a href="contact.html">Directions &amp; Map</a></li>
 						</ul>
 					</nav>

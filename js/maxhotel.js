@@ -1,6 +1,6 @@
 
 $(function() {
-  $(".booking-form").on('submit', function(e){
+  $("form").on('submit', function(e){
     var error = false;
     $("#datefrom, #dateto, #adults").each(function(i,v){
     // check if user selected dates and # adult guests
@@ -11,7 +11,6 @@ $(function() {
     var checkInDateAsDateObj = new Date($('#datefrom').val());
     var checkOutDateAsDateObj = new Date($('#dateto').val());
     var today = new Date();
-    var nights = Math.floor((checkOutDateAsDateObj - checkInDateAsDateObj)/(1000*60*60*24));
     //check if dates are valid
     if( today > checkInDateAsDateObj || checkOutDateAsDateObj < checkInDateAsDateObj ) error = true;
 
@@ -27,6 +26,14 @@ $(function() {
       return false;
     }
   });
+  
+  var checkInDate = new Date($('#from').text());
+  var checkOutDate = new Date($('#to').text());
+  var nights = Math.floor((checkOutDate - checkInDate)/(1000*60*60*24));
+
+  if( $("#nights").length ) {
+    $("#nights").text(nights);
+  }
 });
 
 

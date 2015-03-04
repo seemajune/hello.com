@@ -312,24 +312,40 @@
 				
 					<h4 class="title-style4">Your Reservation<span class="title-block"></span></h4>
 					
-					<ul>
-						<li><span>Room: </span> <div id="room"> </div></li>
-						<li><span>Dates: </span> <div id="dates"> </div></li>
-						<li><span>Guests: </span> <div id="ppl"> </div></li>
-						<li><span>Cost Per Night: </span> <div id="cst"> </div></li>
+				<ul>
+						<li><span>Dates: </span> 
+							<div class="dates">   
+								<div id="from">
+								<?php
+	    							if($_POST['book_date_from']){
+	      							echo $_POST['book_date_from'];
+	    							}
+	  						?>
+	  					  </div>
+	  						<div id="to">
+	  						<?php
+	    							if($_POST['book_date_to']){
+	      							echo $_POST['book_date_to'];
+	    							}
+	  						?>
+	  					</div>
+  						</div>
+  					</li>
+						<li><span>Guests: </span> 
+							<div id="ppl"> 
+								<?php
+	    							if($_POST['book_room_adults']){
+	      							echo $_POST['book_room_adults'];
+	    							}
+	  						?>
+							</div>
+						</li>
+						<li><span>Nights: </span> 
+							<div id="nights"> 
+								
+							</div>
+						</li>
 					</ul>
-					
-					<div class="price-details">
-						
-						<p class="deposit">15% Deposit Due Now</p>
-						<h3 class="price"><div id="dep"> </div></h3>
-						<hr class="total-line" />
-						<p class="total">Total Price</p>
-						<h3 class="total-price"><div id="tots"> </div></h3>
-						<p class="price-breakdown"><a href="#">View Price Breakdown</a></p>
-						<p class="price-breakdown-display">
-						<span># of Nights:</span> <br />
-						<span>$ per Night:</span><br />
 						<span>Total:</span><br />
 						
 						

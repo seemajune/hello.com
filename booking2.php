@@ -79,7 +79,7 @@
 				<!-- BEGIN .topbar-right -->
 				<div class="topbar-right clearfix">
 					
-					<a href="booking1.html" class="button0">Book Now</a>
+					<a href="booking1.php" class="button0">Book Now</a>
 					
 					<ul id="language-selection">
 						<li><a href="#">English</a>
@@ -276,7 +276,7 @@
 								</div>
 								<div class="clearboth"></div>
 								
-								<form id="singleroom" class="booking-form" name="bookroom" action="booking3.html" method="post">
+								<form id="singleroom" class="booking-form" name="bookroom" action="booking3.php" method="post">
 									<input type="hidden"  value="SingleRoom" name="room">
 									<input type="hidden"  name="cost" value="299">
 									<input class="button2" type="submit" name="twinbeds" value="Select This Room">
@@ -405,12 +405,21 @@
 					
 					<ul>
 						<li><span>Dates: </span> 
-							<div id="dates">   
+							<div class="dates">   
+								<div id="from">
 								<?php
-	    							if($_POST['book_date_from'] && $_POST['book_date_to']){
-	      							echo $_POST['book_date_from'] . " - " . $_POST['book_date_to'];
+	    							if($_POST['book_date_from']){
+	      							echo $_POST['book_date_from'];
 	    							}
 	  						?>
+	  					  </div>
+	  						<div id="to">
+	  						<?php
+	    							if($_POST['book_date_to']){
+	      							echo $_POST['book_date_to'];
+	    							}
+	  						?>
+	  					</div>
   						</div>
   					</li>
 						<li><span>Guests: </span> 
@@ -422,9 +431,14 @@
 	  						?>
 							</div>
 						</li>
+						<li><span>Nights: </span> 
+							<div id="nights"> 
+								
+							</div>
+						</li>
 					</ul>
 					
-					<a href="booking1.html" class="button3">Edit Reservation</a>
+					<a href="booking1.php" class="button3">Edit Reservation</a>
 					
 				</div>
 				
@@ -442,7 +456,7 @@
 					<nav class="secondary-navigation">
 						<ul class="fr">
 							<li><a href="accommodation.html">Accommodation</a></li>
-							<li><a href="booking1.html">Book Now</a></li>
+							<li><a href="booking1.php">Book Now</a></li>
 							<li><a href="contact.html">Directions &amp; Map</a></li>
 						</ul>
 					</nav>

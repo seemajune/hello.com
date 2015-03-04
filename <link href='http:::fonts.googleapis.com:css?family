@@ -1,0 +1,1130 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+<style>
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #newoffer {
+        padding: 0;
+        width: 100%;
+    }
+
+    .info {
+
+    }
+
+    #subscriberagree_p {
+        float: left;
+        padding: 16px 0 0 16px;
+    }
+
+    .bubble {
+        display: block;
+        float: none;
+        width: 580px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .pageType-commerceOffer {
+        padding-bottom: 0 !important;
+    }
+
+
+    .detailList {
+        background-color: transparent;
+        margin: 20px 20px 0 20px;
+    }
+
+    .detailList li {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        margin-bottom: 7px;
+        padding-left: 22px;
+        font-size: 19px !important;
+        color: #000000;
+        background: url(#$(ContentManager:benefits_bullet_chevron.png)!) no-repeat left 6px !important;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+
+
+    .pageType-commerceOffer .inputCheck input {
+        border: none;
+        border-radius: 0;
+        width: 27px;
+        height: 27px;
+        background: url(#$(ContentManager:checkbox_unchecked.png)!) 0 0 no-repeat;
+    }
+
+    .pageType-commerceOffer .inputCheck input:checked {
+        background: url(#$(ContentManager:checkbox_checked.png)!) 0 0 no-repeat;
+    }
+
+
+    .mm_head {
+        width: 531px;
+        padding: 0 42px;
+        margin-top: 34px;
+    }
+
+
+
+    .inputText {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #878787  !important;
+        font-size: 21px  !important;
+        font-weight: 600  !important;
+        border-radius: 7px !important;
+        box-shadow: none !important;
+    }
+
+    .error .inputText {
+        border: 1px solid #f27f7e !important;
+        background-color: #9c2b2e !important;
+        color: #f27f7e !important;
+    }
+
+    #paymentInformation .twoThirds {
+        width: 284px !important;
+    }
+    #paymentInformation .oneThird {
+        width: 284px !important;
+        margin-right: 30px;
+    }
+
+
+    #cc_holder,
+    #cc_number {
+        width: 580px;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+
+    #cc_code {
+        width: 284px;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+
+    select {
+        font-size: 19px !important;
+        font-weight: 400 !important;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #fff !important;
+        border: 1px solid #a1acb1 !important;
+        -webkit-appearance: none;
+        padding: 12px 15px !important;
+        border-radius: 7px !important;
+    }
+
+    select option {
+        color: #555555;
+    }
+
+    .error select {
+        border: 1px solid #f27f7e !important;
+        background-image: none !important;
+        background-color: #9c2b2e !important;
+        color: #f27f7e !important;
+    }
+
+    #cc_month,
+    #cc_year {
+        width: 284px;
+        height: 56px;
+        background: url(#$(ContentManager:dropdown_arrows.png)!) 250px center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#73848a), to(#5e6f75));
+    }
+
+    #cc_month {
+        margin-left: 30px;
+    }
+
+    #cc_year {
+        margin-right: 30px;
+    }
+
+    #cc_month_div,
+    #cc_year_div {
+        width: auto !important;
+    }
+
+    #cc_code_p {
+        width: 300px;
+    }
+
+
+    #dpp_monthly_info,
+    #dpp_annual_info {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding: 15px 30px 0 30px;
+        width: 100%;
+        margin: 0!important;
+    }
+
+
+    #securityCodeTree {
+        margin: 15px;
+        color: #fff;
+    }
+
+    .securityCode.expand {
+        background-image: none!important;
+        padding-top: 30px!important;
+    }
+
+    .securityCode p {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        text-align: center;
+    }
+
+    .mm_half_left {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .mm_half_right {
+        float: right;
+        width: 300px;
+    }
+
+    .mm_half_left p {
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .mm_half_right p {
+        width: 190px;
+        margin: 0 auto;
+    }
+
+    .mm_card_1 {
+        width: 119px;
+        height: 76px;
+        margin: 0 auto 15px auto;
+        background: url(#$(ContentManager:visa_code_location.png)!) 0 0 no-repeat;
+    }
+    .mm_card_2 {
+        width: 120px;
+        height: 77px;
+        margin: 0 auto 15px auto;
+        background: url(#$(ContentManager:amex_code_location.png)!) 0 0 no-repeat;
+    }
+
+
+
+
+    .inputWrap {
+        width: 640px;
+        height: 113px;
+        padding-left: 30px !important;
+        background-color: #2f3a40 !important;
+        border: 1px solid transparent !important;
+        margin-bottom: 10px;
+    }
+
+    .inputWrap input {
+        display: none;
+    }
+
+    .inputWrap label {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 27px;
+    }
+
+    .inputWrap li {
+        margin: 12px 0 !important;
+    }
+    .inputWrap li:first-child {
+        margin-top: 20px !important;
+    }
+
+
+    .errorMes {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #f27f7e !important;
+        font-size: 19px !important;;
+        font-weight: 400;
+        line-height: 22px;
+        padding-left: 30px;
+    }
+
+
+
+    .mm_check,
+    .mm_radio {
+        width: 27px;
+        height: 27px;
+        background: url(#$(ContentManager:checkbox_unchecked.png)!) 0 0 no-repeat;
+        display: inline-block;
+    }
+
+    .mm_check.checked,
+    .mm_radio.checked {
+        background: url(#$(ContentManager:checkbox_checked.png)!) 0 0 no-repeat;
+    }
+
+    #whatisthis {
+        margin-right: 30px;
+    }
+
+    .whatIs a {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #0092b4 !important;
+        font-size: 18px;
+        line-height: 11px;
+    }
+
+
+
+
+
+
+    /* billing */
+
+    #da_number_p,
+    #da_street_p {
+        display: none;
+    }
+
+    #da_number,
+    #ba_number {
+        width: 170px !important;
+        margin-bottom: 15px !important;
+    }
+
+    #da_street,
+    #ba_street {
+        width: 394px !important;
+    }
+
+    #da_city_div,
+    #ba_city_div {
+        width: 581px;
+    }
+    #da_state,
+    #da_country,
+    #ba_state,
+    #ba_country {
+        margin-left: 30px;
+    }
+
+    #da_state,
+    #da_country,
+    #ba_state,
+    #ba_country,
+    #pi_que {
+        width: 580px;
+        background: url(#$(ContentManager:dropdown_arrows.png)!) 545px center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#73848a), to(#5e6f75));
+    }
+
+    #da_street_div,
+    #ba_street_div {
+        margin-right: 30px;
+    }
+
+    #da_street_div.twoThirds,
+    #ba_street_div.twoThirds {
+        width: auto!important;
+    }
+
+    #havepassword {
+        display: none;
+    }
+
+    .inputCheck {
+        margin: 20px 24px 0 25px !important;
+        width: 27px !important;
+        height: 27px !important;
+    }
+
+    .inputCheck + label {
+        top: 23px !important;
+    }
+
+    h3.setLabel {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #8ca5ac !important;
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        line-height: 40px !important;
+        padding-left: 30px !important;
+        padding-top: 15px;
+    }
+
+    .accountInfo label {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #8ca5ac !important;
+        font-size: 19px !important;
+        font-weight: 700 !important;
+        line-height: 22px !important;
+    }
+
+    .mm_already {
+        background-color: #2f3a40;
+        height: 68px;
+    }
+
+    .deliveryInformation .finep,
+    .accountInfo .finep {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #ffffff !important;
+        font-size: 19px !important;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        padding-left: 30px;
+        width: 345px !important;
+        margin: 15px 0 15px 0 !important;
+    }
+
+    #pi_tel_1_div {
+        margin-left: 30px;
+    }
+
+    #pi_tel_1,
+    #pi_tel_2,
+    #pi_tel_3 {
+        width: 183px;
+        vertical-align: top;
+    }
+
+    #pi_tel_2 {
+        margin: 0 12px;
+    }
+
+    #pi_que {
+        margin-left: 30px;
+    }
+
+    #pi_user_p {
+        margin-top: 10px;
+    }
+
+    #forgotPassword a {
+        color: #0092b4 !important;
+    }
+
+    #completelogin {
+        display: none!important;
+    }
+
+
+
+
+    #billingAddress .inputsel {
+        margin-bottom: 5px !important;
+    }
+
+    #billing-address .inputText,
+    #delivery-address .inputText,
+    #billingAddress .inputText,
+    .accountInfo .inputText {
+        margin-left: 30px;
+        width: 580px;
+        margin-bottom: 5px;
+    }
+
+    .emailUpdate {
+        background-color: #2f3a40 !important;
+        height: 138px;
+        margin-top: 0 !important;
+    }
+
+    .emailUpdate .clearFix {
+        margin-bottom: 0px!important;
+    }
+
+    .subscriberAgreement input,
+    .emailUpdate input {
+        /*display: none !important;*/
+    }
+
+    #billingwrapper label,
+    .subscriberAgreement label,
+    .emailUpdate label {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #ffffff !important;
+        font-size: 19px !important;
+        line-height: 22px;
+        text-align: left;
+        display: block;
+        width: 540px;
+    }
+    .emailUpdate label {
+        font-weight: 600 !important;
+        margin-left: 60px;
+    }
+    .subscriberAgreement label {
+        font-weight: 400 !important;
+    }
+    .subscriberAgreement label a {
+        color: #8ba5ac !important;
+        font-weight: 700 !important;
+    }
+
+    #delivery-address label {
+        float: left;
+        display: block;
+        width: 450px;
+    }
+
+
+
+    #completepurchase {
+        width: 588px;
+        height: 72px;
+        background:transparent url(#$(ContentManager:complete_purchase_button.png)!) 0 0 no-repeat;
+    }
+    .complete {
+        margin: 20px 0 0 25px !important;
+    }
+
+    .mm_final_ord {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #ffffff !important;
+        font-size: 19px !important;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        width: 100% !important;
+        padding: 0 30px 0 30px !important;
+        margin: 20px 0 !important;
+    }
+
+
+
+
+
+    #newoffer {
+        background-color: #404f56;
+    }
+
+    #subscriptions {
+        /*background-color: #404f56;*/
+    }
+
+
+    #welcomeUser .userWelcome {
+        padding: 30px;
+    }
+
+    #welcomeUser .userWelcome h4.welcome {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #fff !important;
+        font-size: 22px !important;
+        line-height: 22px;
+        text-align: left;
+        display: block;
+    }
+
+    #welcomeUser .userWelcome h3.username {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #fff !important;
+        font-size: 25px !important;
+        line-height: 22px;
+        text-align: left;
+        display: block;
+    }
+
+
+    .mm_last_block {
+        padding-bottom: 40px!important;
+    }
+
+
+
+    .mm_intro {
+        background-color: #ffffff;
+    }
+    .mm_intro .mm_header {
+
+    }
+    .mm_intro .mm_digit {
+        position: relative;
+        height: 185px;
+    }
+    .mm_intro .mm_d_left {
+        width: 281px;
+        height: 106px;
+        position: absolute;
+        left: 30px;
+        top: 32px;
+    }
+    .mm_intro .mm_d_right {
+        width: 240px;
+        height: 107px;
+        position: absolute;
+        right: 35px;
+        top: 75px;
+    }
+    .mm_intro .mm_details {
+        padding: 0 30px 35px 30px;
+    }
+    .mm_intro .mm_details p {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24.48px;
+        text-align: left;
+    }
+    .mm_intro .mm_details p span {
+        color: #004366;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .mm_intro .mm_benefits {
+        padding: 30px;
+        background: url(#$(ContentManager:back_grad.png)!) 0 0 no-repeat;
+    }
+
+    .mm_intro .mm_benefits h5 {
+        /*font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #004165;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        transform: scale(1.006, 1.028);*/
+        color: transparent;
+        background: url(#$(ContentManager:benefits.png)!) 0 0 no-repeat;
+        width: 544px;
+        height: 23px;
+        margin: 0 auto;
+    }
+
+
+
+    /* accordion */
+    .mm_head {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        color:#fff;
+        width: 640px;
+        height: 66px;
+        line-height:66px;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        padding:0 40px;
+        display:block;
+        margin:0;
+        position:relative;
+        text-transform:uppercase;
+    }
+    .mm_head .mm_edit{
+        display:none;
+        width:87px;
+        height:30px;
+        background:transparent url(#$(ContentManager:accordion_edit.png)!) 0 0 no-repeat;
+        position:absolute;
+        right: -29px;
+        top: 19px;
+    }
+    .mm_head_active{
+        background:#177093 url('#$(ContentManager:accordion_active_chevron.png)!') 582px center no-repeat;
+    }
+    .mm_head_inactive{
+        border-top: 1px solid #545d62;
+        background: url('#$(ContentManager:accordion_inactive_chevron.png)!') 576px center no-repeat, url('#$(ContentManager:grad.png)!');
+    }
+    .mm_head_passed{
+        background: url('#$(ContentManager:grad2.png)!');
+        margin-bottom: 0px !important;
+        color: #666666;
+        font-size: 30px;
+        font-weight: 300;
+        height: 67px;
+        border-top: 1px solid #e6e6e6;
+    }
+    .mm_head_passed .mm_edit{
+        display:block;
+    }
+    .mm_continue{
+        font-family: 'FlamaCondensed' !important;
+        font-size: 27px!important;
+        font-weight: 600!important;
+        background: url('#$(ContentManager:continue_button.png)!')!important;
+        letter-spacing:4px;
+        margin: 27px auto 20px auto;
+        padding: 20px 30px;
+        display:block;
+        text-transform: uppercase;
+        font-weight:bold;
+        text-align:center;
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        color: #fff;
+        width:589px;
+        height: 72px;
+    }
+    .mm_hidden_section{
+        position:absolute;
+        left:-10000px;
+        top:-99000px;
+    }
+    /*24122014 update*/
+    .subhead{
+        display: none;
+    }
+    ::-webkit-input-placeholder {
+        color: #808184!important;
+    }
+    .mm_extra_padding{
+        padding-left: 16px;
+    }
+    .mm_bottom_wrap{
+        margin-left: 0px!important;
+    }
+
+    .label label{
+        opacity: 0;
+    }
+
+
+    iframe[name="google_conversion_frame"] {
+        display: none;
+    }
+
+
+    #stateError {
+        display: block;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+        color: #ffffff !important;
+        font-size: 19px !important;
+        line-height: 22px;
+        text-align: left;
+        float: left;
+        padding: 15px 10px 5px 9px;
+    }
+
+
+</style>
+
+
+<div>
+    <div class="mm_intro">
+        <div class="mm_header"><img src="#$(ContentManager:headline_new.png)!"></div>
+        <div class="mm_digit">
+            <div class="mm_d_left"><img src="#$(ContentManager:product_new.png)!"></div>
+            <div class="mm_d_right"><img src="#$(ContentManager:digital_print.png)!"></div>
+        </div>
+        <div class="mm_details">
+            <p><span>Subscription Details:</span> Charge my credit card $52.00 total for the first 52 weeks of my Barron’s subscription. Thereafter, service will automatically renew. This limited-time introductory offer is only valid for new customers.</p>
+        </div>
+        <div class="mm_benefits">
+            <h5>BENEFITS OF SUBSCRIBING TO BARRON'S</h5>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var html = $(mm_inner_HTML);
+
+    /* page customization */
+
+    $( html.find('.mm_intro') ).insertBefore( $(".offer") );
+
+    $('.mm_details').append( $('#dp_monthly_info'));
+    $('.mm_details').append( $('#dp_annual_info') );
+
+    $('#dp_monthly_info').html('<span>Subscription Details: </span>' + $('#dp_monthly_info').text() );
+    $('#dp_annual_info').html('<span>Subscription Details: </span>' + $('#dp_annual_info').text() );
+
+    $('#paymentInformation').append( $('#dp_monthly_info') );
+    $('#paymentInformation').append( $('#dp_annual_info') );
+    $('#paymentInformation').append( $('#dpp_monthly_info'));
+    $('#paymentInformation').append( $('#dpp_annual_info') );
+
+
+    $('.detailList li').last().remove();
+    $('.detailList li').last().remove();
+    $('.detailList li').last().remove();
+
+    $('.detailList li')
+
+    $('.mm_benefits').append( $('.detailList') );
+    $('.offer').remove();
+
+
+    $('#securityCodeTree p').first().parent().removeClass('left half').addClass('mm_half_right');
+    $('#securityCodeTree p').last().parent().removeClass('right half').addClass('mm_half_left');
+
+
+    $('.mm_half_left p').before('<div class="mm_card_1"></div>');
+    $('.mm_half_right p').before('<div class="mm_card_2"></div>');
+
+
+    $('#pay_monthly').before('<div class="mm_radio"></div>');
+    $('#pay_annual').before('<div class="mm_radio"></div>');
+
+
+    /* billing info */
+    $('#ba_street_div').before('<div class="clearFix errorMes"><div class="half right"><p name="ba_street_p" id="ba_street_p"></p></div></div>');
+    $('#ba_number_div').prev().find('.right').remove();
+
+    $('#ba_zip').before('<div class="clearFix errorMes"><div class="half right"><p name="ba_zip_p" id="ba_zip_p"></p></div></div>');
+    $('#state_zip').prev().find('.right').remove();
+
+    $('#ba_number_p').parent().removeClass('oneThird');
+
+
+    /* account info */
+    $('#pi_que > option:eq(0):contains("Select")').text('Select Security Question to Answer');
+    $('#pi_lname_div').before('<div class="clearFix errorMes"><div class="half right"><p name="pi_lname_p" id="pi_lname_p"></p></div></div>');
+    $('#pi_fname_div').prev().find('.half.right').remove();
+
+    $('#pi_cpassword_div').before('<div class="clearFix errorMes"><div class="half right"><p name="pi_cpassword_p" id="pi_cpassword_p"></p></div></div>');
+    $('#pi_password_div').prev().find('.half.right').remove();
+
+    $('#acc_already_exists').closest('.clearFix').addClass('mm_already');
+    $('#billingwrapper').closest('.clearFix').addClass('mm_already');
+
+
+    $('#pi_lname_p, #pi_cpassword_p').parent().removeClass('half right');
+
+    $('#pi_tel_1_div .setLabel').remove();
+
+    $('.billingInformation .clearFix .clearFix').removeClass('clearFix');
+
+
+    /* complete order */
+    if(!$('#subscriberagree').is(':checked')) $('#completepurchase').attr('disabled', 'disabled');
+
+    $('#subscriberagree').click(function(){
+        if(this.checked)
+            $('#completepurchase').removeAttr('disabled');
+        else
+            $('#completepurchase').attr('disabled', 'disabled');
+    });
+    $('#completepurchase_div').append($('#mobile-form .info > .finep'));
+
+
+    $('h2.setHeader:contains("Subscriber Agreement"), h2.setHeader:contains("Email Updates")').remove();
+    $('#completepurchase_div').next().addClass('mm_final_ord').next().addClass('mm_final_ord');
+
+    $('.emailUpdate').addClass('mm_final_step');
+    $('.subscriberAgreement').addClass('mm_final_step');
+    $('.subscriberAgree').addClass('mm_final_step');
+    $('#completepurchase_div').addClass('mm_final_step');
+
+    $('.mm_final_ord').addClass('mm_final_step');
+
+    $('#completepurchase_div').next().addClass('mm_last_block');
+
+
+    // accordion
+
+    var billing_complete = false;
+
+    function MMAccordion(settings){
+        this.settings = settings;
+        this.steps = [];
+        this.activePanelNumber = -1;
+        var self = this;
+
+        function Step(data, number, isLastStep){
+            this.data = data;
+            var self = this;
+            this.number = number;
+
+            this.setTitle = function(text){
+                this.head.text(text);
+                this.head.append('<div class="mm_edit"/>');
+                this.head.find('.mm_edit').click(function(){
+                    self.setActive();
+                });
+            };
+
+            this.setActive = function(){
+                this.isActive = true;
+                this.isPassed = false;
+                this.head.attr('class', 'mm_head mm_head_active');
+                (this.data.onopen || function(){}).call(this);
+                $(this.data.content).removeClass('mm_hidden_section');
+            };
+
+            this.setInactive = function(){
+                this.isActive = false;
+                this.isPassed = false;
+                this.head.attr('class', 'mm_head mm_head_inactive');
+                $(this.data.content).addClass('mm_hidden_section');
+            };
+
+            this.setHidden = function(){
+                this.isActive = false;
+                this.isHidden = true;
+                this.head.hide();
+            };
+
+            this.setVisible = function(){
+                (this.data.onvisible || function(){}).call(this, this.isHidden);
+                this.isHidden = false;
+                this.head.show();
+            };
+
+            this.setPassed = function(){
+                this.isActive = false;
+                this.isPassed = true;
+                this.head.attr('class', 'mm_head mm_head_passed');
+                $(this.data.content).addClass('mm_hidden_section');
+            };
+
+            this.clearErrors = function(){
+                $(self.data.content).find('.errorMes p').text('');
+                $(self.data.content).find('div.error').removeClass('error');
+            };
+
+            this.validate = function(){
+                var agreementState = $('#subscriberagree').is(':checked'),
+                        self = this;
+
+                if($(self.data.content).find('#completelogin:visible').length){
+                    $('#completelogin').click();
+                    return false;
+                }
+
+                function restoreState(){
+                    if(agreementState){
+                        $('#subscriberagree').attr('checked', 'checked');
+                    }else{
+                        $('#completepurchase').attr('disabled', 'disabled');
+                    }
+
+                    $(self.data.content).find('.errorMes p').text('');
+                    $(self.data.content).find('div.error').removeClass('error');
+
+                    return true;
+                };
+
+                $('#subscriberagree').removeAttr('checked');
+                $('#completepurchase').removeAttr('disabled');
+
+                $('#completepurchase').click();
+
+                accordion.clearErrors(self.number);
+                if($(self.data.content).find('.errorMes p').text())
+                    return false;
+                else
+                    return restoreState() && true;
+            };
+
+            function handleShowHide(){
+                $(this.data.content).hasClass('hidden') ? this.setHidden() : this.setVisible();
+            }
+
+
+            function init(){
+                this.head = $('<div class="mm_head"></div>');
+                this.button = $('<div class="mm_continue"></div>');
+
+                $(this.data.content)
+                        .css(this.data.contentCSS || {})
+                        .first()
+                        .before(this.head)
+                        .addClass('mm_hidden_section');
+
+                this.setTitle(this.data.title);
+
+                $(this.data.content).find('.setHeader').hide();
+
+                $('body').on('click', function(){
+                    setTimeout(function(){
+                        handleShowHide.call(self);
+                    }, 0);
+                });
+
+                /* whether to add "continue" button or not */
+                if(isLastStep) return;
+
+                $(this.data.content).last().append(this.button);
+
+                var oncomplete = this.data.oncomplete || function(){ return true; };
+                this.button.click(function(){
+                    var result = oncomplete.call(self);
+                    if(result){
+                        nextStep(self.number);
+                    }
+                    return result;
+                });
+            }
+
+            init.call(this);
+        }
+
+        this.clearErrors = function(exceptStep){
+            for(var i = 0; i < self.steps.length; i++){
+                if(i != exceptStep)
+                    this.steps[i].clearErrors();
+            }
+        };
+
+        function nextStep(currentStep){
+            var numberOfActiveSteps = 0;
+            for(var i = 0; i < self.steps.length; i++){
+                if(self.steps[i].isActive)
+                    numberOfActiveSteps++;
+            }
+
+            setPassedPanel(currentStep);
+
+            if(numberOfActiveSteps < 2)
+                setActivePanel(++self.activePanelNumber);
+        };
+
+        function setUpHeaders(){
+            for(var i = 0; i < settings.sections.length; i++){
+                self.steps.push(new Step(settings.sections[i], i, i == settings.sections.length - 1));
+            }
+        }
+
+        function setPassedPanel(i){
+            self.steps[i].setPassed();
+        }
+
+        function setActivePanel(i){
+            if(self.steps[i].isHidden)
+                return nextStep(i);
+
+            self.activePanelNumber = i;
+            self.steps[i].setActive();
+
+            for(var k = i; ++k < self.steps.length; ){
+                if(!self.steps[k].isPassed)
+                    self.steps[k].setInactive();
+            }
+        }
+
+        this.activateAll = function(){
+            for(var i = 0; i < self.steps.length; i++){
+                this.steps[i].setActive();
+            }
+        };
+
+        function init(){
+            setUpHeaders();
+            setActivePanel(0);
+        }
+
+        init.call(this);
+    }
+
+
+
+
+
+
+    var accordion = new MMAccordion({
+        sections: [
+            {
+                content: '#paymentInformation',
+                contentCSS: {width:640, padding: '0 42', marginTop: 34},
+                title: 'payment information',
+                oncomplete: function(){
+                    return this.validate();
+                }
+            },
+            {
+                content: '#delivery-address',
+                contentCSS: {width:640, padding: '0 42', marginTop: 34},
+                title: 'delivery address',
+                oncomplete: function(){
+                    return this.validate();
+                }
+            },
+            {
+                content: '#billing-address',
+                contentCSS: {width:640, padding: '0 42', marginTop: 34},
+                title: 'delivery information',
+                oncomplete: function(){
+                    return (billing_complete = this.validate());
+                },
+                onvisible: function(isHidden){
+                    if(!isHidden) return;
+                    if(billing_complete){
+                        this.setPassed();
+                    }else if(accordion.activePanelNumber > 2){
+                        this.setActive();
+                    }else{
+                        this.setInactive();
+                        accordion.activePanelNumber = Math.min(accordion.activePanelNumber, 1);
+                    }
+                }
+            },
+            {
+                content: '.accountInfo',
+                contentCSS: {width:640, padding: '0 42', marginTop: 0},
+                title: 'account information',
+                oncomplete: function(){
+                    return this.validate();
+                }
+            },
+            {
+                content: '.mm_final_step',
+                contentCSS: {width:640, padding: '0 42', marginTop: 0},
+                title: 'complete my order',
+                oncomplete: function(){
+
+                }
+            }
+        ]
+    });
+
+
+
+
+    /* handle login form */
+    $('#acc_already_exists').click(function(){
+        if($(this).is(':checked'))
+            $(accordion.steps[3].data.content).find('.mm_continue').hide();
+        else
+            $(accordion.steps[3].data.content).find('.mm_continue').show();
+    });
+    $(document).ajaxComplete(function(a,b,c){
+        if(c.url.match(/auth\/submitlogin\.json/) && JSON.parse(b.responseText)['result'] == 'success')
+            $(accordion.steps[3].data.content).find('.mm_continue').show();
+    });
+
+
+
+    /* handle onload errors */
+    if($('.errorMes p').text()){
+        $('.mm_continue').hide();
+        accordion.activateAll();
+    }
+
+
+    $('#pi_question > option:eq(0)').text('Select Security Question');
+
+
+    // init some accordion parameters
+    $('body').click();
+
+
+
+
+
+
+
+
+
+
+</script>

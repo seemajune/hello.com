@@ -42,7 +42,7 @@
 							<a href="#" class="gmap-button"></a>
 						</div>
 						<div class="topbar-right clearfix">
-							<a href="booking1.html" class="button0">Book Now</a>
+							<a href="booking1.php" class="button0">Book Now</a>
 								<ul id="language-selection">
 									<li><a href="#">English</a>
 										<ul class="submenu">
@@ -227,7 +227,7 @@
 						<li>24 hour front desk staff</li>
 						<li>Free airport pick up/drop off service</li>
 					</ul>
-					<p><a href="booking1.html" class="button1">Book Now</a></p>
+					<p><a href="booking1.php" class="button1">Book Now</a></p>
 				<!-- END .one-third -->	
 				</div>
 				
@@ -382,7 +382,7 @@
 					<nav class="secondary-navigation">
 						<ul class="fr">
 							<li><a href="accommodation.html">Services</a></li>
-							<li><a href="booking1.html">Book</a></li>
+							<li><a href="booking1.php">Book</a></li>
 							<li><a href="contact.html">Directions</a></li>
 						</ul>
 					</nav>
