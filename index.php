@@ -182,31 +182,10 @@
 				</div>
 				<div class="one-third last-col clearfix">
 					<h3 class="title-style1">Location<span class="title-block"></span></h3>
-						<div id="google-map" style="height: 175px;"></div>
-							<script type="text/javascript">
-								var latlng = new google.maps.LatLng(40.7231678,-73.99850500000002);
-								var myOptions = {
-									zoom: 13,
-									center: latlng,
-									scrollwheel: true,
-									scaleControl: false,
-									disableDefaultUI: false,
-									mapTypeId: google.maps.MapTypeId.ROADMAP
-								};
-								mapContent = new google.maps.Map(document.getElementById("google-map"),myOptions);
-								var contentStringContent = '<div class="gmap-content"><h2>Max Hotel</h2><p>1 Main Road, London, UK</p></div>';
-								var infowindowContent = new google.maps.InfoWindow({
-									content: contentStringContent
-								});
-								var markerContent = new google.maps.Marker({
-									position: latlng, 
-									map: mapContent
-								});
-								google.maps.event.addListener(markerContent, 'click', function() {
-									infowindowContent.open(mapContent,markerContent);
-								});
-							</script>
-							<p><a href="https://maps.google.com/maps?q=532+broadway+new+york+ny&hl=en&safe=off&hnear=532+Broadway,+New+York,+10012" target="_blank" class="button1">Directions</a></p>
+						<div id="google-map" style="height: 175px;">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d3023.063070065741!2d-73.9869859!3d40.7386377!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x89c259a10bb417a7%3A0xc7d74b4d2b1828ff!2s257+Park+Ave+S%2C+New+York%2C+NY+10010!3m2!1d40.7386377!2d-73.9869859!5e0!3m2!1sen!2sus!4v1427645348491" width="310" height="250" frameborder="0" style="border:0"></iframe>
+						</div>
+							<p><a href="https://goo.gl/maps/dStCb" target="_blank" class="button1">Directions</a></p>
 						</div>
 			</div>
 			<div id="testimonials">
