@@ -140,8 +140,8 @@
 			<div class="slider-caption-wrapper"></div>
 			<div class="home-reservation-box clearfix">
 			<form class="booking-form" name="bookroom" action="booking2.php" method="post">
-					<input type="text" id="datefrom" name="book_date_from" value="Check In" class="datepicker">
-					<input type="text" id="dateto" name="book_date_to" value="Check Out" class="datepicker">
+					<input type="text" id="datefrom" type="submit" name="book_date_from" value="Check In" class="datepicker">
+					<input type="text" id="dateto" type="submit" name="book_date_to" value="Check Out" class="datepicker">
 					<div class="select-wrapper">
 						<select id="adults" name="book_room_adults">
 							<option value="none">Adults</option>

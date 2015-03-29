@@ -320,15 +320,27 @@
                                     "booking-form" id="singleroom" method=
                                     "post" name="bookroom">
                                         <input name="room" type="hidden" value=
-                                        "SingleRoom"> <input name="cost" type=
-                                        "hidden" value="299"> <?php
-                                                                                                if($_POST['book_room_adults']){
-                                                                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
-                                                                                                }
-                                                                                          ?>
+                                        "SingleRoom"> 
+                                        <input name="cost" type=
+                                        "hidden" value="299"> 
+                                            <?php
+                                                if($_POST['book_room_adults']){
+                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                                }
+
+                                                if($_POST['book_date_from']){
+                                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                                }
+
+                                                if($_POST['book_date_to']){
+                                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                                }
+                                            ?>
                                         <input type="hidden" value=
-                                        "book_date_to"> <input type="hidden"
-                                        value="book_room_adults"> <input class=
+                                        "book_date_to"> 
+                                        <input type="hidden"
+                                        value="book_room_adults"> 
+                                        <input class=
                                         "button2" name="twinbeds" type="submit"
                                         value="Select This Room">
                                     </form>
@@ -361,6 +373,19 @@
                                         "hidden" value="399"> <input class=
                                         "button2" name="twinbeds" type="submit"
                                         value="Select This Room">
+                                            <?php
+                                                if($_POST['book_room_adults']){
+                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                                }
+
+                                                if($_POST['book_date_from']){
+                                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                                }
+
+                                                if($_POST['book_date_to']){
+                                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                                }
+                                            ?>
                                     </form>
                                 </div>
                             </li>
@@ -391,6 +416,19 @@
                                         "hidden" value="699"> <input class=
                                         "button2" name="twinbeds" type="submit"
                                         value="Select This Room">
+                                            <?php
+                                                if($_POST['book_room_adults']){
+                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                                }
+
+                                                if($_POST['book_date_from']){
+                                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                                }
+
+                                                if($_POST['book_date_to']){
+                                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                                }
+                                            ?>
                                     </form>
                                 </div>
                             </li>
@@ -418,7 +456,20 @@
                                     name="bookroom">
                                         <input name="room" type="hidden" value=
                                         "SuperiorSuite"> <input name="cost"
-                                        type="hidden" value="899">
+                                        type="hidden" value="Select This Room">
+                                            <?php
+                                                if($_POST['book_room_adults']){
+                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                                }
+
+                                                if($_POST['book_date_from']){
+                                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                                }
+
+                                                if($_POST['book_date_to']){
+                                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                                }
+                                            ?>
                                         <input class="button2" name="twinbeds"
                                         type="submit" value="Select This Room">
                                     </form>
@@ -437,16 +488,16 @@
                                 <div class="dates">
                                     <div id="from">
                                         <?php
-                                                if($_POST['book_date_from']){
-                                                echo $_POST['book_date_from'];
-                                                }
+                                            if($_POST['book_date_from']){
+                                            echo $_POST['book_date_from'];
+                                            }
                                         ?>
                                     </div>
                                     <div id="to">
                                         <?php
-                                                if($_POST['book_date_to']){
-                                                echo $_POST['book_date_to'];
-                                                }
+                                            if($_POST['book_date_to']){
+                                            echo $_POST['book_date_to'];
+                                            }
                                         ?>
                                     </div>
                                 </div>
@@ -455,9 +506,9 @@
                                 <span>Guests:</span>
                                 <div id="ppl">
                                     <?php
-                                            if($_POST['book_room_adults']){
-                                            echo $_POST['book_room_adults'];
-                                            }
+                                        if($_POST['book_room_adults']){
+                                        echo $_POST['book_room_adults'];
+                                        }
                                     ?>
                                 </div>
                             </li>

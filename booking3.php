@@ -335,7 +335,7 @@
                             "#">terms and conditions</a>.</p><img alt="" class=
                             "payment-image" src="images/payment.png">
                             <div class="clearfix"></div><input class=
-                            "book-deposit" type="submit" value=
+                            "book-deposit" type="submit" style="background-color:#555;" value=
                             "Book Now &amp; Pay Deposit">
                         </form>
                     </div>
@@ -381,8 +381,7 @@
                         </ul><span>Total:</span><br>
                     </div>
                     <hr class="space9">
-                    <a class="button3" href="booking1.html">Edit
-                    Reservation</a>
+                    <a class="button3" href="booking1.html" style="margin:5%; background-color: #555;">Edit Reservation</a>
                 </div>
             </div>
         </div>
