@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <title>Max Hotel -</title>
@@ -310,8 +311,8 @@
                                     echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
                                     }
 
-                                    if($_POST['nights']){
-                                    echo '<input type="hidden" name="nights" value="' . $_POST['nights'] . '">';
+                                    if($_POST['formattedNights']){
+                                    echo '<input type="hidden" name="formattedNights" value="' . $_POST['formattedNights'] . '">';
                                     }
                                     
                                     if($_POST['cost']){

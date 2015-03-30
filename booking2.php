@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-                                          <?php
-                                       $formattedNights = -1;
-                                        $fromDate = $_POST['book_date_from'];
-                                        $toDate = $_POST['book_date_to'];
-                                        $fromDate = new DateTime($fromDate);
-                                        $toDate = new DateTime($toDate);
-                                        $formattedNights = date_diff($fromDate, $toDate);
-                                        $formattedNights = $formattedNights->format('%a');
-                                        ?>
+      <?php
+   $formattedNights = -1;
+    $fromDate = $_POST['book_date_from'];
+    $toDate = $_POST['book_date_to'];
+    $fromDate = new DateTime($fromDate);
+    $toDate = new DateTime($toDate);
+    $formattedNights = date_diff($fromDate, $toDate);
+    $formattedNights = $formattedNights->format('%a');
+    ?>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
