@@ -368,9 +368,9 @@
                                 <span>Guests:</span>
                                 <div id="ppl">
                                     <?php
-                                            if($_POST['book_room_adults']){
-                                            echo $_POST['book_room_adults'];
-                                            }
+                                        if($_POST['book_room_adults']){
+                                        echo $_POST['book_room_adults'];
+                                        }
                                     ?>
                                 </div>
                             </li>
