@@ -295,8 +295,21 @@
                     <div class="booking-main">
                         <h4 class="title-style4">Guest Details<span class=
                         "title-block"></span></h4>
-                        <form action="booking4.html" class="clearfix" method=
+                        <form action="booking4.php" class="clearfix" method=
                         "post">
+                                                                    <?php
+                                                if($_POST['book_room_adults']){
+                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                                }
+
+                                                if($_POST['book_date_from']){
+                                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                                }
+
+                                                if($_POST['book_date_to']){
+                                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                                }
+                                            ?>
                             <div class="input-left">
                                 <label for="first_name">First Name</label>
                                 <input id="first_name" name="first_name" type=
@@ -329,14 +342,16 @@
                             Requirments</label> 
                             <textarea id="special_requirements" name=
                             "special_requirements" rows="10">
-</textarea>
+                            </textarea>
                             <p class="terms"><input name="terms" type=
                             "checkbox"> I have read and accept the <a href=
                             "#">terms and conditions</a>.</p><img alt="" class=
                             "payment-image" src="images/payment.png">
-                            <div class="clearfix"></div><input class=
-                            "book-deposit" type="submit" style="background-color:#555;" value=
-                            "Book Now &amp; Pay Deposit">
+                            <div class="clearfix"></div>
+                            <input class=
+                            "book-deposit" action="booking4.php" type="submit" 
+                             method="post" name="bookroom" style="background-color:#555;" value=
+                            "Book Now">
                         </form>
                     </div>
                 </div>
@@ -350,16 +365,16 @@
                                 <div class="dates">
                                     <div id="from">
                                         <?php
-                                                if($_POST['book_date_from']){
-                                                echo $_POST['book_date_from'];
-                                                }
+                                            if($_POST['book_date_from']){
+                                            echo $_POST['book_date_from'];
+                                            }
                                         ?>
                                     </div>
                                     <div id="to">
                                         <?php
-                                                if($_POST['book_date_to']){
-                                                echo $_POST['book_date_to'];
-                                                }
+                                            if($_POST['book_date_to']){
+                                            echo $_POST['book_date_to'];
+                                            }
                                         ?>
                                     </div>
                                 </div>
