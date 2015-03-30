@@ -3000,6 +3000,7 @@ a.button2,
 
 .open-modal {
 	display: block;
+	z-index: 9999999;
 }
 
 .error-button {

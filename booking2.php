@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+                                          <?php
+                                       $formattedNights = -1;
+                                        $fromDate = $_POST['book_date_from'];
+                                        $toDate = $_POST['book_date_to'];
+                                        $fromDate = new DateTime($fromDate);
+                                        $toDate = new DateTime($toDate);
+                                        $formattedNights = date_diff($fromDate, $toDate);
+                                        $formattedNights = $formattedNights->format('%a');
+                                        ?>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
@@ -400,8 +409,8 @@
                                                         echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
                                                         }
 
-                                                        if($_POST['nights']){
-                                                        echo '<input type="hidden" name="nights" value="' . $_POST['nights'] . '">';
+                                                        if($formattedNights){
+                                                        echo '<input type="hidden" name="formattedNights" value="' . $formattedNights . '">';
                                                         }
                                                         
                                                         if($_POST['cost']){
@@ -464,8 +473,8 @@
                                                         echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
                                                         }
 
-                                                        if($_POST['nights']){
-                                                        echo '<input type="hidden" name="nights" value="' . $_POST['nights'] . '">';
+                                                        if($formattedNights){
+                                                        echo '<input type="hidden" name="formattedNights" value="' . $formattedNights . '">';
                                                         }
                                                         
                                                         if($_POST['cost']){
@@ -523,8 +532,8 @@
                                                         echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
                                                         }
 
-                                                        if($_POST['nights']){
-                                                        echo '<input type="hidden" name="nights" value="' . $_POST['nights'] . '">';
+                                                        if($formattedNights){
+                                                        echo '<input type="hidden" name="formattedNights" value="' . $formattedNights . '">';
                                                         }
                                                         
                                                         if($_POST['cost']){
@@ -580,8 +589,8 @@
                                                         echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
                                                         }
 
-                                                        if($_POST['nights']){
-                                                        echo '<input type="hidden" name="nights" value="' . $_POST['nights'] . '">';
+                                                        if($formattedNights){
+                                                        echo '<input type="hidden" name="formattedNights" value="' . $formattedNights . '">';
                                                         }
                                                         
                                                         if($_POST['cost']){
@@ -645,7 +654,13 @@
                             <li>
                                 <span>Nights:</span>
 
-                                <div id="nights"></div>
+                                <div id="formattedNights">
+                                       <?php
+                                        if($formattedNights){
+                                        echo $formattedNights;
+                                        }
+                                    ?>
+                                </div>
                             </li>
                         </ul><a class="button3" href="booking1.php">Edit
                         Reservation</a>

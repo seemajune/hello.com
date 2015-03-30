@@ -413,13 +413,20 @@
                             </li>
                             <li>
                                 <span>Nights:</span>
-                                <div id="nights"></div>
+                                <div id="formattedNights">
+                                    <?php 
+                                        if($_POST['formattedNights']){        
+                                        echo $_POST['formattedNights'];
+                                        }
+                                    ?>
+                                </div>
                             </li>
                         </ul><span>Total:</span>
                                 <?php 
-                                    //echo (floatval($POST['nights']) * floatval($POST['cost']));
-                                    echo(print_r($_POST, true));
-                                 ?>
+                                    if($_POST['formattedNights'] && $_POST['cost']){        
+                                    echo ("$" . ($_POST['formattedNights'] * $_POST['cost']));
+                                    }
+                                ?>
 
                         <br>
                     </div>
