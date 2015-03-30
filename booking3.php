@@ -381,7 +381,7 @@
                         </ul><span>Total:</span><br>
                     </div>
                     <hr class="space9">
-                    <a class="button3" href="booking1.html" style="margin:5%; background-color: #555;">Edit Reservation</a>
+                    <a class="button3" href="booking1.php" style="margin:5%; background-color: #555;">Edit Reservation</a>
                 </div>
             </div>
         </div>
@@ -394,7 +394,7 @@
                     <a href="accommodation.html">Accommodation</a>
                 </li>
                 <li>
-                    <a href="booking1.html">Book Now</a>
+                    <a href="booking1.php">Book Now</a>
                 </li>
                 <li>
                     <a href="contact.html">Directions &amp; Map</a>
