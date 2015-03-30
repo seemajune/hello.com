@@ -297,19 +297,23 @@
                         "title-block"></span></h4>
                         <form action="booking4.php" class="clearfix" method=
                         "post">
-                                                                    <?php
-                                                if($_POST['book_room_adults']){
-                                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
-                                                }
+                            <?php
+                                if($_POST['room']){
+                                echo '<input type="hidden" name="room" value="' . $_POST['room'] . '">';
+                                }
 
-                                                if($_POST['book_date_from']){
-                                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
-                                                }
+                                if($_POST['book_room_adults']){
+                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                }
 
-                                                if($_POST['book_date_to']){
-                                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
-                                                }
-                                            ?>
+                                if($_POST['book_date_from']){
+                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                }
+
+                                if($_POST['book_date_to']){
+                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                }
+                            ?>
                             <div class="input-left">
                                 <label for="first_name">First Name</label>
                                 <input id="first_name" name="first_name" type=
@@ -360,6 +364,16 @@
                         <h4 class="title-style4">Your Reservation<span class=
                         "title-block"></span></h4>
                         <ul>
+                            <li>    
+                            <span>Room:</span>
+                                <div class="dates">
+
+                                        <?php
+                                            if($_POST['room']){
+                                            echo $_POST['room'];
+                                            }
+                                        ?>
+                            </li>
                             <li>
                                 <span>Dates:</span>
                                 <div class="dates">

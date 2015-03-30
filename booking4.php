@@ -183,7 +183,13 @@
 				<div class="booking-side clearfix">
 					<h4 class="title-style4">Your Reservation<span class="title-block"></span></h4>
 					<ul>
-						<li><span>Room: </span> <div id="room"> 
+						<li><span>Room: </span> 
+							<div id="room"> 
+			                    <?php
+	                            if($_POST['room']){
+	                            echo $_POST['room'];
+	                            }
+	                        ?>
 							</div>
 						</li>
 					<ul>
