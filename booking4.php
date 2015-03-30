@@ -221,13 +221,22 @@
                                     ?>
                                 </div>
                             </li>
-						<li><span>Cost Per Night: </span> <div id="cst"> </div></li>
+						<li><span>Cost Per Night: </span> <div id="cost">$
+							<?php 
+								echo  $_POST['cost'];
+							?>
+						</div></li>
 					</ul>
 					<div class="price-details">
 						<h3 class="price"><div id="dep"> </div></h3>
 						<hr class="total-line" />
 						<p class="total">Total Price</p>
-						<h3 class="total-price"><div id="tots"> </div></h3>
+						<h3 class="total-price"><div id="tots"> 
+											<?php 
+													echo  (floatval($POST['nights']) * floatval($POST['cost']);
+											?>
+
+						</div></h3>
 						<p class="price-breakdown"><a href="#">View Price Breakdown</a></p>
 						<p class="price-breakdown-display">
 						<span># of Nights:</span>   

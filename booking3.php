@@ -297,23 +297,31 @@
                         "title-block"></span></h4>
                         <form action="booking4.php" class="clearfix" method=
                         "post">
-                            <?php
-                                if($_POST['room']){
-                                echo '<input type="hidden" name="room" value="' . $_POST['room'] . '">';
-                                }
+                                <?php
+                                    if($_POST['book_room_adults']){
+                                    echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
+                                    }
 
-                                if($_POST['book_room_adults']){
-                                echo '<input type="hidden" name="book_room_adults" value="' . $_POST['book_room_adults'] . '">';
-                                }
+                                    if($_POST['book_date_from']){
+                                    echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
+                                    }
 
-                                if($_POST['book_date_from']){
-                                echo '<input type="hidden" name="book_date_from" value="' . $_POST['book_date_from'] . '">';
-                                }
+                                    if($_POST['book_date_to']){
+                                    echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
+                                    }
 
-                                if($_POST['book_date_to']){
-                                echo '<input type="hidden" name="book_date_to" value="' . $_POST['book_date_to'] . '">';
-                                }
-                            ?>
+                                    if($_POST['nights']){
+                                    echo '<input type="hidden" name="nights" value="' . $_POST['nights'] . '">';
+                                    }
+                                    
+                                    if($_POST['cost']){
+                                    echo '<input type="hidden" name="cost" value="' . $_POST['cost'] . '">';
+                                    }
+
+                                    if($_POST['room']){
+                                    echo '<input type="hidden" name="room" value="' . $_POST['room'] . '">';
+                                    }
+                                ?>
                             <div class="input-left">
                                 <label for="first_name">First Name</label>
                                 <input id="first_name" name="first_name" type=
@@ -407,7 +415,13 @@
                                 <span>Nights:</span>
                                 <div id="nights"></div>
                             </li>
-                        </ul><span>Total:</span><br>
+                        </ul><span>Total:</span>
+                                <?php 
+                                    //echo (floatval($POST['nights']) * floatval($POST['cost']));
+                                    echo(print_r($_POST, true));
+                                 ?>
+
+                        <br>
                     </div>
                     <hr class="space9">
                     <a class="button3" href="booking1.php" style="margin:5%; background-color: #555;">Edit Reservation</a>
